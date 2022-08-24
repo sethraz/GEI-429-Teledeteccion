@@ -1,0 +1,38 @@
+Usuario,Tipo,Aplicación
+Gobiernos,Tradicional,Planificadores civiles.
+Gobiernos,Tradicional,Fuerzas armadas.
+Gobiernos,Tradicional,Servicios de inteligencia.
+Gobiernos,Tradicional,Centros científicos.
+Gobiernos,Tradicional,Entidades regionales y locales.
+Medios de comunicación,Nuevo,De información general.
+Medios de comunicación,Nuevo,De información específica.
+Medios de comunicación,Nuevo,Editoriales.
+Organizaciones internacionales,Tradicional,Agencias de la ONU.
+Organizaciones internacionales,Tradicional,Programas de cambio global.
+Organizaciones internacionales,Tradicional,Centros Regionales (CEPAL).
+ONG,Nuevo,Ambientalistas.
+ONG,Nuevo,Control de armamentos, desarme.
+ONG,Nuevo,Ayuda humanitaria.
+ONG,Nuevo,Derechos humanos.
+ONG,Nuevo,Gestión de desastres.
+Empresas,Tradicional,Extracción de recursos.
+Empresas,Tradicional,Gestión de recursos.
+Empresas,Tradicional,Aerofotografía.
+Empresas,Tradicional,Diseño y lanzamiento de sensores.
+Empresas,Tradicional,Diseño y venta de software.
+Empresas,Tradicional,Empresas SIG.
+Empresas,Nuevo,Redes de distribución (electricidad-agua).
+Empresas,Nuevo,Seguros.
+Empresas,Nuevo,Agricultura de precisión.
+Empresas,Nuevo,Evaluación de Impacto Ambiental.
+Empresas,Nuevo,Promoción turística.
+Universidades,Tradicional,Departamentos de Geografía-Geología-Biología-Geodesia-Agronomía
+Universidades,Tradicional,Centros de Teledetección.
+Universidades,Tradicional,Departamentos de Física-Informática-Telecomunicaciones.
+Universidades,Nuevo,Departamentos de Arqueología-Transportes-Epidemiología.
+Universidades,Nuevo,Centros multimedia.
+Universidades,Nuevo,Departamentos de Geopolítica.
+Organizaciones profesionales,Tradicional,Teledetección.
+Organizaciones profesionales,Tradicional,Campos afines a las aplicaciones.
+Clientes finales,Nuevo,Mercado inmobiliario.
+Clientes finales,Nuevo,Decoración.

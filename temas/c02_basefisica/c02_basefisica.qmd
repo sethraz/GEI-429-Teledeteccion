@@ -1,0 +1,175 @@
+---
+title: "Tema 02: Principios físicos de la Teledetección"
+author: "Omar E. Barrantes Sotela"
+date: "2022/08/16"
+lang: es
+cls: apa.cls
+bibliography: ref_tele.bib
+format: 
+  html:
+    self-contained: true
+    code-fold: true
+    code-tools: true
+editor: visual
+---
+
+```{r}
+#| label: no-src
+#| echo: false
+options(scipen=999)
+```
+
+## Principios físicos
+
+Todo sistema de teledetección se compone de un [**sensor**]{style="color:red;"}, un [**objeto observado**]{style="color:blue;"} y un [**flujo energético**]{style="color:green;"} que los relaciona y permite detectar el objeto [@Chuvieco2008]. El flujo energético para adquirir información puede darse de tres formas:
+
+-   por **reflexión**,
+
+-   por **emisión** y
+
+-   por **emisión-reflexión**.
+
+## El Proceso de la Teledetección
+
+La energía se transfiere de un lugar a otro por tres procesos: **convección, conducción** y [**radiación**]{style="color:red;"}.
+
+![Aspectos involucrados: 1) Fuente de energía, 2) medio de propagación, 3) interacción con el objeto, 4) Registro de energía por el sensor, 5) transmisión de datos, 6) procesamiento y 7) aplicación de resultados.](./fig/Remote-Sensing-Process.png){width="450"}
+
+## Propiedades de la radiación electro-magnética
+
+La **radiación electro-magnética**, se explica por dos teorías aparentemente contrapuestas:
+
+::: {.fragment .fade-in}
+-   Se concibe como un **haz ondulatorio**. Principio de Huygens (1678), ecuaciones de Maxwell (1865) y otros.
+:::
+
+::: {.fragment .fade-in}
+-   Como **sucesión de unidades discretas de energía**, fotones o cuantos con masa igual a cero. Ley Planck (1900) y Efecto fotoeléctrico de Einstein (1905).
+:::
+
+::: {.fragment .fade-in}
+Las dos teorías son posibles, pues se ha demostrado que la luz se comporta de acuerdo a ambos planteamientos (dualidad **onda-partícula**).
+:::
+
+## La Onda Electromagnética
+
+::: columns
+::: {.column width="50%"}
+**Según la teoría ondulatoria**
+
+![Una onda electromagnética polarizada linealmente que va en el eje z, con E denotando el campo eléctrico y B perpendicular denotando el campo magnético.](fig/Onde_electromagnetique.svg)
+:::
+
+::: {.column width="50%"}
+![Ley de Planck para cuerpos a diferentes temperaturas](fig/Wiens_law.svg.png){fig-align="center"}
+:::
+:::
+
+## El espectro electromagnético
+
+![Espectro electromagnético, por Victor Blacus.](fig/Electromagnetic-Spectrum.svg)
+
+## Regiones del espectro electromagnético
+
+Según @Bhatta2013, es posible diferenciar las regiones del espectro utilizado en los procesos de teledetección de la siguiente manera:
+
+-   **La región visible u óptica**: Se ubica entre (0.3 - 3.0 $\mu m$). Por lo general usan al Sol como fuente de energía (con excepción del LiDAR).
+
+-   **La región termal**: Entre (3.0 - 5.0 y 8.0-14.0 $\mu m$). Los sensores remotos que utilizan la región termal y la microondas pasivas usan la energía emitida desde la superficie terrestre.
+
+-   **Microondas**: Entre (1.0 $mm$ - 1 $m$). Se compone de la región de microondas pasiva y activa. Los sensores remotos que usan la región activa de microondas envía energía artificial a la superficie terrestre y luego la energía dispersada es registrada por el sensor.
+
+Otras propiedades del espectro electromagnético
+
+![Diagrama del espectro EM, que muestra el tipo, la longitud de onda (con ejemplos), la frecuencia, la temperatura de emisión del cuerpo negro. Adaptado de NASA.](fig/EM_Spectrum_Properties.svg)
+
+## Términos y unidades de medida: Dimensionales
+
+Principales términos usados en teledetección [@Chuvieco1996; @Jones2010; @Weng2011].
+
+-   **Energía radiante** ($Q$): Indica el total de energía radiada en todas las direcciones. **Unidad**: julios $[J]$
+
+-   **Densidad radiante** ($W$): Total de energía radiada en todas las direcciones por unidad de volumen. **Unidad**: julios por metro cúbico $[J m^{-3}]$.
+
+-   **Flujo radiante** ($\Phi$): Total de energía radiante en todas las direcciones por unidad de tiempo: **Unidad**: Vatios ($W$).
+
+-   **Emitancia radiante** ($M$): Total de energía radiada en todas las direcciones desde una unidad de área y por unidad de tiempo. **Unidad**: Vatios por metro cuadrado $[W m^{-2}]$.
+
+-   **Irradianza radiante** ($E$): Total de energía radiada sobre una unidad de área y por unidad de tiempo. Es quivalente a la emitancia, si se indica la energía emitida, mientras la irradianza refiere a la incidente $[W m^{-2}]$.
+
+-   **Intensidad radiante** ($I$): Total de energía radiada por unidad de tiempo y por ángulo sólido ($\Omega$). Se trata de un ángulo tridimensional, que refiere a la sección completa de la energía transmitida, y se mide en estéreo-radianes. **Unidad**: $[W sr^{-1}]$.
+
+-   **Radianza** ($L$): Total de energía radiada en una determinada dirección por unidad de área y por ángulo sólido de medida. **Este es un término fundamental** en [Teledetección]{style="color:red;"}, ya que describe lo que mide el sensor. **Unidad**: Vatios por metro cuadrado y estéreo-radián $[W m^{-2} sr^{-1}]$.
+
+-   **Radianza espectral** ($L_{\lambda}$): Indica el total de energía radiada en una determinada longitud de onda por unidad de área y por ángulo sólido de medida. Por cuanto el sensor detecta una banda particular del espectro, ésta es la medida más cercana a la observación remota. Al igual que la radianza, la emitancia e irradianza al incluir el sub-índice ($\lambda$) se refiere a una determinada longitud de onda.
+
+## Términos y unidades de medida: Adimensionales
+
+Suelen expresarse en por cientos o por uno (cantidades relativas).
+
+-   **Emisividad** ($\varepsilon$): Es la relación entre la emitancia de una superficie ($M$), y la que ofrecería un emisor perfecto, denominado cuerpo negro, a la misma temperatura ($M_n$).
+
+-   **Reflectividad** ($\rho$): Es la relación entre el flujo incidente y el reflejado por una superficie.
+
+-   **Absortividad** ($\alpha$): Es la relación entre el flujo incidente y el que absorbe una superficie.
+
+-   **Transmisividad** ($\tau$): Es la relación entre el flujo incidente y el transmitido por una superficie.
+
+Al incluir el sub-índice ($\lambda$) se refiere al mismo término pero a una determinada longitud de onda.
+
+## Curva de emitancia radiativa del Sol
+
+::: columns
+::: {.column width="50%"}
+El Sol se encuentra a una temperatura radiante aproximada de 6.000 K. Según la ley de Wien su máxima emitancia espectral se produce a los 0.48 $\mu m$, que coincide con el color verde que aprecian nuestros ojos.
+:::
+
+::: {.column width="50%"}
+![Irradianza radiante del Sol.](fig/Solar_radiation_spectrum.png)
+:::
+:::
+
+## Flujo incidente y reflejado
+
+![Relación entre flujo incidente y reflejado](fig/flujo-incidente-reflejado.png)
+
+## Factores que inciden en la reflectividad de las coberturas
+
+-   Elementos que absorben energía (agua, pigmentos, minerales).
+
+-   Rugosidad superficial (reflectividad lambertiana o especular).
+
+-   Ángulos de observación e iluminación.
+
+## Factores que modifican la reflectividad de las coberturas
+
+-   Altura solar.
+
+-   Orientación.
+
+-   Pendiente.
+
+-   Atmósfera.
+
+-   Fenología
+
+-   Tipo de sustrato.
+
+## Perfiles espectrales típicos de distintas coberturas
+
+::: columns
+::: {.column width="45%"}
+::: r-fit-text
+A partir del laboratorio se han obtenido curvas de reflectividad espectral para las principales coberturas terrestres. Se observa que algunas presentan una respuesta uniforme en distintas longitudes de onda, mientras que otras un comportamiento mucho más característico.
+:::
+:::
+
+::: {.column width="55%"}
+![Perfiles típicos](fig/image_remote2.jpeg){fig-align="center" width="600"}
+:::
+:::
+
+## Diversas aplicaciones
+
+La Teledetección puede realizarse en diferentes regiones del espectro electromagnético. El uso de diferentes longitudes de onda ocurre principalmente por las diferentes aplicaciones que pueden plantearse.
+

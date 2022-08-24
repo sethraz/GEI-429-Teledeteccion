@@ -13,8 +13,8 @@ website:
         text: Inicio
       - text: "Temas"
         menu:
-          - ./docs/c01_intro/c01_intro.qmd
-          - ./docs/c02_basefisica/c02_basefisica.qmd
+          - ./temas/c01_intro/c01_intro.qmd
+          - ./temas/c02_basefisica/c02_basefisica.qmd
       - about.qmd
   right:
       - icon: twitter
@@ -31,8 +31,8 @@ website:
     contents: 
       - section: "Contenidos"
         contents: 
-          - ./docs/c01_intro/c01_intro.qmd
-          - ./docs/c02_basefisica/c02_basefisica.qmd
+          - ./temas/c01_intro/c01_intro.qmd
+          - ./temas/c02_basefisica/c02_basefisica.qmd
         
 
 format:

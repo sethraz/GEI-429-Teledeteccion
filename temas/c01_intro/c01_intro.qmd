@@ -1,0 +1,160 @@
+---
+title: "Tema 01: Introducción Teledetección"
+author: "Omar E. Barrantes Sotela"
+date: "2022/07/14"
+cls: apa.cls
+bibliography: ref_tele.bib
+lang: es
+format: 
+  html:
+    self-contained: true
+    code-fold: true
+    code-tools: true
+editor: visual
+---
+
+```{r}
+#| label: no-src
+#| echo: false
+options(scipen=999)
+```
+
+## Antecedentes
+
+La **Teledetección** es la observación remota de la superficie terrestre (*remote sensing*). Antes de 1960, el término *remote sensing* solo significaba "cualquier medio de observación de un objeto sin tocarlo". Sin embargo, con los programas espaciales y el desarrollo de los computadores, se considera como una disciplina relacionada a la observación de la Tierra.
+
+Según @Chuvieco2008, las primeras experiencias de la teledeteción datan de 1859, cuando Gaspar Félix de Tournachon obtuvo las primeras fotográfias aéreas desde un globo aerostático. El uso principal era el conocimiento de la organización y los patrones de ocupación urbana.
+
+Con la Primera Guerra Mundial, el uso del aeroplano fue determinante para recabar información del terreno, con fines estratégicos y militares. Destaca el aporte en 1915 de J.T.C Moore-Brabazon. Mientras que en la Segunda Guerra Mundial, llevó a un desarrollo más avanzado en las técnicas de teledetección. *Kodak Research Laboratories* introdujo la película infrarroja y se implementó la tecnología del sensor de radar, así como grandes avances en los sistemas de comunicación.
+
+Fue cuestión de tiempo que estos avances se implementaran en la vida cotidiana y en el estudio de los recursos naturales. El período de postguerra llevo a un acelerado desarrollo del radar y de los sensores térmicos de barrido. A finales de los años cincuenta inicia la carrera espacial y con la guerra fría, el campo disciplinario tuvo un gran impulso y auge. En 1957 se lanzó el primer satélite artificial Sputnik, y despúes de este siguieron una serie de misiones y logros, que no solo se limitaron estudiar el planeta Tierra, sino también a la Luna y los otros astros del Sistema Solar.
+
+![Evolución de los sistemas de teledetección. Tomado de @Chuvieco2008.](fig/crono_tele.png){.lightbox fig-align="center"}
+
+## Cronología
+
+Adaptado de @Jones2010 .
+
+```{r crono_tele_detalle, echo=FALSE}
+#| label: crono_tele_detalle
+#| tbl-cap: "Cronología"
+#| echo: false
+#| tbl-cap-location: margin
+#| out-height: "500"
+library(DT)
+
+df <- read.csv('crono_eo.csv')
+names(df) <- c("Inicio","Final","Logro","Tipo")
+DT::datatable(df, class = "cell-border stripe", rownames = FALSE,
+              filter ="top", editable =TRUE, 
+              extension = "Buttons", 
+              options = list(dom="Bfrtip",
+                             buttons =c("copy", "csv", "excel", "pdf","print")))
+
+```
+
+# Aplicaciones Convencionales
+
+```{r}
+#| label: app.tab
+#| echo: false
+#| message: false
+#| tbl-cap: "Aplicaciones"
+#| tbl-cap-location: margin
+#| out-height: "500"
+
+library(dplyr)
+library(knitr)
+library(kableExtra)
+
+#| tbl-cap: "Aplicaciones"
+#| tbl-cap-location: margin
+d.app <- read.csv('aplicaciones.csv')
+
+tab.app <- d.app |> 
+  group_by(Usuario,Tipo)
+
+DT::datatable(tab.app, class = "cell-border stripe", rownames = FALSE,
+              filter ="top", editable =F, 
+              extension = "Buttons", 
+              options = list(dom="Bfrtip",
+                             buttons =c("copy", "csv", "excel", "pdf","print")))
+
+```
+
+## Aspectos Legales
+
+> Por la ubicación y puesta en órbita de los satélites, estos [**no obedecen**]{style="color:red;"} fronteras nacionales.
+
+### Satélites Militares
+
+-   *Open Skies proposal. (1955).* No aprobado por la URSS.
+
+-   Etapa de aceptación legal tácita. (1956-1991).
+
+-   Open Skies Treaty (1992). Firmado por E.E.U.U., Canada y Estados de la OTAN, así como por los países firmantes del tratado de Varsovia (Rusia, Ucracia y Belarusia).
+
+### Satélites Civiles
+
+Son regulados por el Comité de Naciones Unidades para el Uso Pacífico del Espacio Exterior. Se basa en el tratado sobre las actividades de exploración del espacio, firmado en 1967.
+
+> "... el espacio exterior, incluso la Luna y otros cuerpos celestes, no podrán ser objeto de apropiación internacional por reivindicación de soberanía, uso u ocupación, ni mediante ningún otro medio."
+
+-   UNISPACE'82. Se expresa la necesidad de controlar la distribución de imágenes.
+-   Resolución 41/65 de la ONU (diciembre 1986) establece el interés para promover la protección del ambiente y mitigación de desastres naturales.
+
+## Principios de la Resolución 41/65 de la ONU
+
+-   La teledetección se realizará en provecho e interés de todos los países, de acuerdo con el derecho internacional;
+-   se respetará el principio de soberanía plena y permanente de los Estados sobre su propia riqueza y recursos naturales, sin perjudicar los legítimos derechos e intereses del Estado observado;
+-   se promoverá la cooperación internacional sobre recepción, interpretación y archivo de datos, prestándose asistencia técnica;
+-   deberán los Estados informar al Secretario General de las Naciones Unidas de los programas de teledetección que se propongan desarrollar, así como a los Estados interesados que lo soliciten;
+-   se informará a los Estados afectados para prevenir fenómenos perjudiciales para su medio ambiente, y contarán con acceso sin discriminaciones, y a un coste razonable, de los datos de su territorio.
+
+## Las ventajas de las observación espacial
+
+La observación satelital presenta ciertas ventajas con respecto a otros medios de observación convencional, pero que bien pueden utilizarse como un complemento. Se destacan las siguientes ventajas:
+
+-   Cobertura global: permiten obtener información de la totalidad del planeta, bajo condiciones comparables (mismo sensor, altitud orbital). Fundamental para entender procesos y fenómenos de pequeña escala y con impacto planetario.
+
+-   Perspectiva panorámica: permite detectar grandes espacios, y proporciona una visión amplia de hechos y fenómenos geográficos.
+
+-   Observación multiescala y no destructiva: ofrecen un amplio rango de cobertura espacial y nivel de detalle, desde los sensores de ámbito local (resoluciones de 30 cm y coberturas de cientos de kilómetros), hasta los de ámbito global. Las variables físicas que se obtienen de las imágenes son equiparables (reflectividad, radianza, temperatura, etc.) y es posible relacionar múltiples escalas y variables. Además, la observación satelital no altera las propiedades de la cobertura, por lo que es consistente en el tiempo de observación.
+
+![Temperatura diaria global (2016-02-24)](fig/20160224_Nowcast_Daily_Temp.png){#nowcast_daily_global .illustration fig-align="center"}
+
+-   Información sobre regiones no visibles del espectro: los sensores ópticos-electrónicos facilitan imágenes de diversos tipos de energía que no son visibles por el ojo humano o la fotografía convencional, como el infrarrojo cercano, infrarrojo medio, térmico o microndas. Estas bandas del espectro electromagnético proporcional información valiosa para el estudio y monitoreo ambiental. En la @fig-spectro, se pueden observar las diferencias entre una composición RGB convencional, con respecto a una composición en el infrarrojo de onda corta.
+
+::: {#fig-spectro layout-ncol="2" fig-align="center"}
+![Quebec OLI](fig/sthquebec_ali_2011128_lrg.jpg){#fig-spectro01 fig-align="center" fig-alt="Composición en el espectro visible, tal y como lo percibe el ojo humano." width="450"}
+
+![Quebec SWIR](fig/sthquebec_ali_2011128_swir_lrg.jpg){#fig-spectro02 fig-align="center" fig-alt="Composición en el infrarrojo de onda corta, es posible observar de manera más fácil la presencia de vegetación." width="450"}
+
+Detección de vegetación según la composición de bandas en el espectro no visibles por el ojo humano. Fuente: [Earth Observatory, NASA.](https://earthobservatory.nasa.gov)
+:::
+
+-   Cobertura repetitiva: es posible obtener imágenes repetitivas de toda la Tierra, en condiciones comparables de observación, ideal para estudios multitemporales como el cambio en las coberturas de la superficie terrestre o el aumento de la temperatura.
+
+```{r animate, echo=FALSE, eval=FALSE, fig.show = 'animate'}
+library(purrr)
+library(magick)
+wd.in <- "./fig/global_gis/"
+#direccion y nombres de las imagenes multiespectrales
+dat.fullpath <- list.files(wd.in, pattern = "*global", 
+                           full.names = TRUE) #Path de los archivos .csv
+
+images <- map(dat.fullpath, image_read)
+images <- image_join(images)
+animation <- image_animate(image_scale(images, "450"), fps = 2)
+image_write(animation, "./fig/ggg.gif")
+
+```
+
+![Anomalías térmicas (1884-2019) -
+Las temperaturas del aire en la Tierra han estado aumentando desde la Revolución Industrial. Si bien la variabilidad natural juega algún papel, la preponderancia de la evidencia indica que las actividades humanas, particularmente las emisiones de gases de efecto invernadero que atrapan el calor, son las principales responsables de hacer que nuestro planeta sea más cálido. -](fig/ggg.gif){#fig-anom}
+
+-   Transmisión inmediata: Los sistemas de teledetección graban las imágenes en formato digital, lo que permite transmitirlas a las estaciones terrestres en tiempo real. Esto permite una disponibilidad inmediata, que es fundamental para el monitoreo, gestión y evaluación medio ambiental, así como la atención de emergencias por fenómenos naturales o antrópicos.
+
+-   Formato digital: su disponibilidad en formato digital permite no solo su adquisición en tiempo real, sino también su tratamiento y procesamiento mediante modelos cuantitativos. Entre las limitaciones más importantes es que solo permite estimar aquellas variaciones que modifican el modo en que la cobertura refleja o emite energía, o la posición de los objetos. Por tanto, si el fenómeno de estudio no produzca una alteración sobre las características espectrales, esta no podrá ser detectada mediante los sistemas de teledetección.
+
+## Referencias
