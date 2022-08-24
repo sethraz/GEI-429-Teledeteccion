@@ -1,0 +1,19 @@
+---
+pagetitle: "Curso GEI-429: Teledetección"
+page-layout: custom
+author: "Omar E. Barrantes Sotela"
+lang: es
+listing:
+  contents:
+    - "./docs/c01_intro/c01_intro.qmd"
+    - "./docs/c02_basefisica/c02_basefisica.qmd"
+description: |
+  La percepción remota es ciencia y técnica que permite obtener información acerca de los objetos sobre la superficie terrestre o acuática, sin tener contacto directo con ellos. Se basa en mediciones de la energía electromagnética reflejada o emitida por los objetos de interés, sobre la superficie de la tierra.
+image: /fig/ECG-UNA.png
+---
+
+::: {.content-block}
+
+El curso pretende introducir al estudiante en el conocimiento de principios básicos de teledetección digital para realizar análisis de datos obtenidos por sensores remotos, aplicando metodologías y tecnologías apropiadas para el análisis de imágenes. En el laboratorio se realizan prácticas dirigidas hacia el procesamiento de imágenes, por la situación de emergencia que vive el país ante la pandemia, este curso no tendrá trabajo de campo para la verificación de la información procesada en el laboratorio.
+
+:::

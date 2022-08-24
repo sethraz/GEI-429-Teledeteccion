@@ -1,0 +1,33 @@
+project:
+  type: website
+
+website:
+  title: "Curso GEI-429: Teledetección "
+  page-navigation: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Inicio
+      - text: "Temas"
+        menu:
+          - ./docs/c01_intro/c01_intro.qmd
+          - ./docs/c02_basefisica/c02_basefisica.qmd
+      - about.qmd
+  sidebar: 
+    style: "docked"
+    search: true
+    contents: 
+      - section: "Introducción a la Teledetección"
+        contents:
+          - ./docs/c01_intro/c01_intro.qmd
+          - ./docs/c02_basefisica/c02_basefisica.qmd
+        
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+editor: visual
+
