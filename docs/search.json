@@ -33,5 +33,138 @@
     "title": "GEI-429",
     "section": "Objetivos específicos",
     "text": "Objetivos específicos\n\nIntroducir los conceptos elementales de la ciencia y técnica de la percepción remota, a través de prácticas dirigidas que permitan afianzar habilidades para su desarrollo profesional.\nAnalizar la dinámica de la superficie terrestre a partir de los sensores remotos, considerando la variación espectral, temporal, radiométrica, espacial y angular de los objetos para la identificación de elementos, hechos y fenómenos geográficos.\nAplicar metodologías y técnicas apropiadas en el tratamiento de la imagen digital mediante el uso de herramientas e instrumentos tecnológicos, para la obtención de productos cartográficos de alta calidad y eficiencia.\nAnalizar las limitaciones de los productos de sensores remotos a partir de la experiencia desarrollada en las actividades prácticas para su implementación en el desarrollo de proyectos de teledetección aplicados a la producción cartográfica."
+  },
+  {
+    "objectID": "temas/c01_intro/c01_intro.html#antecedentes",
+    "href": "temas/c01_intro/c01_intro.html#antecedentes",
+    "title": "Tema 01: Introducción Teledetección",
+    "section": "Antecedentes",
+    "text": "Antecedentes\nLa Teledetección es la observación remota de la superficie terrestre (remote sensing). Antes de 1960, el término remote sensing solo significaba “cualquier medio de observación de un objeto sin tocarlo”. Sin embargo, con los programas espaciales y el desarrollo de los computadores, se considera como una disciplina relacionada a la observación de la Tierra.\nSegún Chuvieco-Salinero (2008), las primeras experiencias de la teledeteción datan de 1859, cuando Gaspar Félix de Tournachon obtuvo las primeras fotográfias aéreas desde un globo aerostático. El uso principal era el conocimiento de la organización y los patrones de ocupación urbana.\nCon la Primera Guerra Mundial, el uso del aeroplano fue determinante para recabar información del terreno, con fines estratégicos y militares. Destaca el aporte en 1915 de J.T.C Moore-Brabazon. Mientras que en la Segunda Guerra Mundial, llevó a un desarrollo más avanzado en las técnicas de teledetección. Kodak Research Laboratories introdujo la película infrarroja y se implementó la tecnología del sensor de radar, así como grandes avances en los sistemas de comunicación.\nFue cuestión de tiempo que estos avances se implementaran en la vida cotidiana y en el estudio de los recursos naturales. El período de postguerra llevo a un acelerado desarrollo del radar y de los sensores térmicos de barrido. A finales de los años cincuenta inicia la carrera espacial y con la guerra fría, el campo disciplinario tuvo un gran impulso y auge. En 1957 se lanzó el primer satélite artificial Sputnik, y despúes de este siguieron una serie de misiones y logros, que no solo se limitaron estudiar el planeta Tierra, sino también a la Luna y los otros astros del Sistema Solar.\n\n\n\nEvolución de los sistemas de teledetección. Tomado de Chuvieco-Salinero (2008)."
+  },
+  {
+    "objectID": "temas/c01_intro/c01_intro.html#cronología",
+    "href": "temas/c01_intro/c01_intro.html#cronología",
+    "title": "Tema 01: Introducción Teledetección",
+    "section": "Cronología",
+    "text": "Cronología\nAdaptado de Jones y Vaughan (2010) ."
+  },
+  {
+    "objectID": "temas/c01_intro/c01_intro.html#aspectos-legales",
+    "href": "temas/c01_intro/c01_intro.html#aspectos-legales",
+    "title": "Tema 01: Introducción Teledetección",
+    "section": "Aspectos Legales",
+    "text": "Aspectos Legales\n\nPor la ubicación y puesta en órbita de los satélites, estos no obedecen fronteras nacionales.\n\n\nSatélites Militares\n\nOpen Skies proposal. (1955). No aprobado por la URSS.\nEtapa de aceptación legal tácita. (1956-1991).\nOpen Skies Treaty (1992). Firmado por E.E.U.U., Canada y Estados de la OTAN, así como por los países firmantes del tratado de Varsovia (Rusia, Ucracia y Belarusia).\n\n\n\nSatélites Civiles\nSon regulados por el Comité de Naciones Unidades para el Uso Pacífico del Espacio Exterior. Se basa en el tratado sobre las actividades de exploración del espacio, firmado en 1967.\n\n“… el espacio exterior, incluso la Luna y otros cuerpos celestes, no podrán ser objeto de apropiación internacional por reivindicación de soberanía, uso u ocupación, ni mediante ningún otro medio.”\n\n\nUNISPACE’82. Se expresa la necesidad de controlar la distribución de imágenes.\nResolución 41/65 de la ONU (diciembre 1986) establece el interés para promover la protección del ambiente y mitigación de desastres naturales."
+  },
+  {
+    "objectID": "temas/c01_intro/c01_intro.html#principios-de-la-resolución-4165-de-la-onu",
+    "href": "temas/c01_intro/c01_intro.html#principios-de-la-resolución-4165-de-la-onu",
+    "title": "Tema 01: Introducción Teledetección",
+    "section": "Principios de la Resolución 41/65 de la ONU",
+    "text": "Principios de la Resolución 41/65 de la ONU\n\nLa teledetección se realizará en provecho e interés de todos los países, de acuerdo con el derecho internacional;\nse respetará el principio de soberanía plena y permanente de los Estados sobre su propia riqueza y recursos naturales, sin perjudicar los legítimos derechos e intereses del Estado observado;\nse promoverá la cooperación internacional sobre recepción, interpretación y archivo de datos, prestándose asistencia técnica;\ndeberán los Estados informar al Secretario General de las Naciones Unidas de los programas de teledetección que se propongan desarrollar, así como a los Estados interesados que lo soliciten;\nse informará a los Estados afectados para prevenir fenómenos perjudiciales para su medio ambiente, y contarán con acceso sin discriminaciones, y a un coste razonable, de los datos de su territorio."
+  },
+  {
+    "objectID": "temas/c01_intro/c01_intro.html#las-ventajas-de-las-observación-espacial",
+    "href": "temas/c01_intro/c01_intro.html#las-ventajas-de-las-observación-espacial",
+    "title": "Tema 01: Introducción Teledetección",
+    "section": "Las ventajas de las observación espacial",
+    "text": "Las ventajas de las observación espacial\nLa observación satelital presenta ciertas ventajas con respecto a otros medios de observación convencional, pero que bien pueden utilizarse como un complemento. Se destacan las siguientes ventajas:\n\nCobertura global: permiten obtener información de la totalidad del planeta, bajo condiciones comparables (mismo sensor, altitud orbital). Fundamental para entender procesos y fenómenos de pequeña escala y con impacto planetario.\nPerspectiva panorámica: permite detectar grandes espacios, y proporciona una visión amplia de hechos y fenómenos geográficos.\nObservación multiescala y no destructiva: ofrecen un amplio rango de cobertura espacial y nivel de detalle, desde los sensores de ámbito local (resoluciones de 30 cm y coberturas de cientos de kilómetros), hasta los de ámbito global. Las variables físicas que se obtienen de las imágenes son equiparables (reflectividad, radianza, temperatura, etc.) y es posible relacionar múltiples escalas y variables. Además, la observación satelital no altera las propiedades de la cobertura, por lo que es consistente en el tiempo de observación.\n\n\n\n\nTemperatura diaria global (2016-02-24)\n\n\n\nInformación sobre regiones no visibles del espectro: los sensores ópticos-electrónicos facilitan imágenes de diversos tipos de energía que no son visibles por el ojo humano o la fotografía convencional, como el infrarrojo cercano, infrarrojo medio, térmico o microndas. Estas bandas del espectro electromagnético proporcional información valiosa para el estudio y monitoreo ambiental. En la Figura 1, se pueden observar las diferencias entre una composición RGB convencional, con respecto a una composición en el infrarrojo de onda corta.\n\n\n\n\n\n\n\n\n(a) Quebec OLI\n\n\n\n\n\n\n\n(b) Quebec SWIR\n\n\n\n\nFigura 1: Detección de vegetación según la composición de bandas en el espectro no visibles por el ojo humano. Fuente: Earth Observatory, NASA.\n\n\n\nCobertura repetitiva: es posible obtener imágenes repetitivas de toda la Tierra, en condiciones comparables de observación, ideal para estudios multitemporales como el cambio en las coberturas de la superficie terrestre o el aumento de la temperatura.\n\n\n\n\n\n\n\nFigura 2: Anomalías térmicas (1884-2019) - Las temperaturas del aire en la Tierra han estado aumentando desde la Revolución Industrial. Si bien la variabilidad natural juega algún papel, la preponderancia de la evidencia indica que las actividades humanas, particularmente las emisiones de gases de efecto invernadero que atrapan el calor, son las principales responsables de hacer que nuestro planeta sea más cálido. -\n\n\n\nTransmisión inmediata: Los sistemas de teledetección graban las imágenes en formato digital, lo que permite transmitirlas a las estaciones terrestres en tiempo real. Esto permite una disponibilidad inmediata, que es fundamental para el monitoreo, gestión y evaluación medio ambiental, así como la atención de emergencias por fenómenos naturales o antrópicos.\nFormato digital: su disponibilidad en formato digital permite no solo su adquisición en tiempo real, sino también su tratamiento y procesamiento mediante modelos cuantitativos. Entre las limitaciones más importantes es que solo permite estimar aquellas variaciones que modifican el modo en que la cobertura refleja o emite energía, o la posición de los objetos. Por tanto, si el fenómeno de estudio no produzca una alteración sobre las características espectrales, esta no podrá ser detectada mediante los sistemas de teledetección."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#principios-físicos",
+    "href": "temas/c02_basefisica/c02_basefisica.html#principios-físicos",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Principios físicos",
+    "text": "Principios físicos\nTodo sistema de teledetección se compone de un sensor, un objeto observado y un flujo energético que los relaciona y permite detectar el objeto (Chuvieco-Salinero 2008). El flujo energético para adquirir información puede darse de tres formas:\n\npor reflexión,\npor emisión y\npor emisión-reflexión."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#el-proceso-de-la-teledetección",
+    "href": "temas/c02_basefisica/c02_basefisica.html#el-proceso-de-la-teledetección",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "El Proceso de la Teledetección",
+    "text": "El Proceso de la Teledetección\nLa energía se transfiere de un lugar a otro por tres procesos: convección, conducción y radiación.\n\n\n\nAspectos involucrados: 1) Fuente de energía, 2) medio de propagación, 3) interacción con el objeto, 4) Registro de energía por el sensor, 5) transmisión de datos, 6) procesamiento y 7) aplicación de resultados."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#propiedades-de-la-radiación-electro-magnética",
+    "href": "temas/c02_basefisica/c02_basefisica.html#propiedades-de-la-radiación-electro-magnética",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Propiedades de la radiación electro-magnética",
+    "text": "Propiedades de la radiación electro-magnética\nLa radiación electro-magnética, se explica por dos teorías aparentemente contrapuestas:\n\n\nSe concibe como un haz ondulatorio. Principio de Huygens (1678), ecuaciones de Maxwell (1865) y otros.\n\n\n\n\nComo sucesión de unidades discretas de energía, fotones o cuantos con masa igual a cero. Ley Planck (1900) y Efecto fotoeléctrico de Einstein (1905).\n\n\n\nLas dos teorías son posibles, pues se ha demostrado que la luz se comporta de acuerdo a ambos planteamientos (dualidad onda-partícula)."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#la-onda-electromagnética",
+    "href": "temas/c02_basefisica/c02_basefisica.html#la-onda-electromagnética",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "La Onda Electromagnética",
+    "text": "La Onda Electromagnética\n\n\nSegún la teoría ondulatoria\n\n\n\nUna onda electromagnética polarizada linealmente que va en el eje z, con E denotando el campo eléctrico y B perpendicular denotando el campo magnético.\n\n\n\n\n\n\nLey de Planck para cuerpos a diferentes temperaturas"
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#el-espectro-electromagnético",
+    "href": "temas/c02_basefisica/c02_basefisica.html#el-espectro-electromagnético",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "El espectro electromagnético",
+    "text": "El espectro electromagnético\n\n\n\nEspectro electromagnético, por Victor Blacus."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#regiones-del-espectro-electromagnético",
+    "href": "temas/c02_basefisica/c02_basefisica.html#regiones-del-espectro-electromagnético",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Regiones del espectro electromagnético",
+    "text": "Regiones del espectro electromagnético\nSegún Bhatta (2013), es posible diferenciar las regiones del espectro utilizado en los procesos de teledetección de la siguiente manera:\n\nLa región visible u óptica: Se ubica entre (0.3 - 3.0 \\(\\mu m\\)). Por lo general usan al Sol como fuente de energía (con excepción del LiDAR).\nLa región termal: Entre (3.0 - 5.0 y 8.0-14.0 \\(\\mu m\\)). Los sensores remotos que utilizan la región termal y la microondas pasivas usan la energía emitida desde la superficie terrestre.\nMicroondas: Entre (1.0 \\(mm\\) - 1 \\(m\\)). Se compone de la región de microondas pasiva y activa. Los sensores remotos que usan la región activa de microondas envía energía artificial a la superficie terrestre y luego la energía dispersada es registrada por el sensor.\n\nOtras propiedades del espectro electromagnético\n\n\n\nDiagrama del espectro EM, que muestra el tipo, la longitud de onda (con ejemplos), la frecuencia, la temperatura de emisión del cuerpo negro. Adaptado de NASA."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-dimensionales",
+    "href": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-dimensionales",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Términos y unidades de medida: Dimensionales",
+    "text": "Términos y unidades de medida: Dimensionales\nPrincipales términos usados en teledetección (Chuvieco-Salinero 1996; Jones y Vaughan 2010; Weng 2011).\n\nEnergía radiante (\\(Q\\)): Indica el total de energía radiada en todas las direcciones. Unidad: julios \\([J]\\)\nDensidad radiante (\\(W\\)): Total de energía radiada en todas las direcciones por unidad de volumen. Unidad: julios por metro cúbico \\([J m^{-3}]\\).\nFlujo radiante (\\(\\Phi\\)): Total de energía radiante en todas las direcciones por unidad de tiempo: Unidad: Vatios (\\(W\\)).\nEmitancia radiante (\\(M\\)): Total de energía radiada en todas las direcciones desde una unidad de área y por unidad de tiempo. Unidad: Vatios por metro cuadrado \\([W m^{-2}]\\).\nIrradianza radiante (\\(E\\)): Total de energía radiada sobre una unidad de área y por unidad de tiempo. Es quivalente a la emitancia, si se indica la energía emitida, mientras la irradianza refiere a la incidente \\([W m^{-2}]\\).\nIntensidad radiante (\\(I\\)): Total de energía radiada por unidad de tiempo y por ángulo sólido (\\(\\Omega\\)). Se trata de un ángulo tridimensional, que refiere a la sección completa de la energía transmitida, y se mide en estéreo-radianes. Unidad: \\([W sr^{-1}]\\).\nRadianza (\\(L\\)): Total de energía radiada en una determinada dirección por unidad de área y por ángulo sólido de medida. Este es un término fundamental en Teledetección, ya que describe lo que mide el sensor. Unidad: Vatios por metro cuadrado y estéreo-radián \\([W m^{-2} sr^{-1}]\\).\nRadianza espectral (\\(L_{\\lambda}\\)): Indica el total de energía radiada en una determinada longitud de onda por unidad de área y por ángulo sólido de medida. Por cuanto el sensor detecta una banda particular del espectro, ésta es la medida más cercana a la observación remota. Al igual que la radianza, la emitancia e irradianza al incluir el sub-índice (\\(\\lambda\\)) se refiere a una determinada longitud de onda."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-adimensionales",
+    "href": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-adimensionales",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Términos y unidades de medida: Adimensionales",
+    "text": "Términos y unidades de medida: Adimensionales\nSuelen expresarse en por cientos o por uno (cantidades relativas).\n\nEmisividad (\\(\\varepsilon\\)): Es la relación entre la emitancia de una superficie (\\(M\\)), y la que ofrecería un emisor perfecto, denominado cuerpo negro, a la misma temperatura (\\(M_n\\)).\nReflectividad (\\(\\rho\\)): Es la relación entre el flujo incidente y el reflejado por una superficie.\nAbsortividad (\\(\\alpha\\)): Es la relación entre el flujo incidente y el que absorbe una superficie.\nTransmisividad (\\(\\tau\\)): Es la relación entre el flujo incidente y el transmitido por una superficie.\n\nAl incluir el sub-índice (\\(\\lambda\\)) se refiere al mismo término pero a una determinada longitud de onda."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#curva-de-emitancia-radiativa-del-sol",
+    "href": "temas/c02_basefisica/c02_basefisica.html#curva-de-emitancia-radiativa-del-sol",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Curva de emitancia radiativa del Sol",
+    "text": "Curva de emitancia radiativa del Sol\n\n\nEl Sol se encuentra a una temperatura radiante aproximada de 6.000 K. Según la ley de Wien su máxima emitancia espectral se produce a los 0.48 \\(\\mu m\\), que coincide con el color verde que aprecian nuestros ojos.\n\n\n\n\nIrradianza radiante del Sol."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#flujo-incidente-y-reflejado",
+    "href": "temas/c02_basefisica/c02_basefisica.html#flujo-incidente-y-reflejado",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Flujo incidente y reflejado",
+    "text": "Flujo incidente y reflejado\n\n\n\nRelación entre flujo incidente y reflejado"
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#factores-que-inciden-en-la-reflectividad-de-las-coberturas",
+    "href": "temas/c02_basefisica/c02_basefisica.html#factores-que-inciden-en-la-reflectividad-de-las-coberturas",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Factores que inciden en la reflectividad de las coberturas",
+    "text": "Factores que inciden en la reflectividad de las coberturas\n\nElementos que absorben energía (agua, pigmentos, minerales).\nRugosidad superficial (reflectividad lambertiana o especular).\nÁngulos de observación e iluminación."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#factores-que-modifican-la-reflectividad-de-las-coberturas",
+    "href": "temas/c02_basefisica/c02_basefisica.html#factores-que-modifican-la-reflectividad-de-las-coberturas",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Factores que modifican la reflectividad de las coberturas",
+    "text": "Factores que modifican la reflectividad de las coberturas\n\nAltura solar.\nOrientación.\nPendiente.\nAtmósfera.\nFenología\nTipo de sustrato."
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#perfiles-espectrales-típicos-de-distintas-coberturas",
+    "href": "temas/c02_basefisica/c02_basefisica.html#perfiles-espectrales-típicos-de-distintas-coberturas",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Perfiles espectrales típicos de distintas coberturas",
+    "text": "Perfiles espectrales típicos de distintas coberturas\n\n\n\nA partir del laboratorio se han obtenido curvas de reflectividad espectral para las principales coberturas terrestres. Se observa que algunas presentan una respuesta uniforme en distintas longitudes de onda, mientras que otras un comportamiento mucho más característico.\n\n\n\n\n\nPerfiles típicos"
+  },
+  {
+    "objectID": "temas/c02_basefisica/c02_basefisica.html#diversas-aplicaciones",
+    "href": "temas/c02_basefisica/c02_basefisica.html#diversas-aplicaciones",
+    "title": "Tema 02: Principios físicos de la Teledetección",
+    "section": "Diversas aplicaciones",
+    "text": "Diversas aplicaciones\nLa Teledetección puede realizarse en diferentes regiones del espectro electromagnético. El uso de diferentes longitudes de onda ocurre principalmente por las diferentes aplicaciones que pueden plantearse."
   }
 ]
