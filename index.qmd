@@ -3,13 +3,16 @@ pagetitle: "Curso GEI-429: Teledetección"
 page-layout: custom
 author: "Omar E. Barrantes Sotela"
 lang: es
+toc: true
+css: index.css
+editor: source
 listing:
   contents:
     - "./docs/c01_intro/c01_intro.qmd"
     - "./docs/c02_basefisica/c02_basefisica.qmd"
 description: |
   La percepción remota es ciencia y técnica que permite obtener información acerca de los objetos sobre la superficie terrestre o acuática, sin tener contacto directo con ellos. Se basa en mediciones de la energía electromagnética reflejada o emitida por los objetos de interés, sobre la superficie de la tierra.
-image: /fig/ECG-UNA.png
+image: ecg-una.png
 ---
 
 ::: {.content-block}

@@ -4,6 +4,7 @@ project:
 website:
   title: "Curso GEI-429: Teledetección "
   page-navigation: true
+  logo: ./fig/ECG-UNA.png
   navbar:
     left:
       - href: index.qmd
@@ -13,6 +14,15 @@ website:
           - ./docs/c01_intro/c01_intro.qmd
           - ./docs/c02_basefisica/c02_basefisica.qmd
       - about.qmd
+  right:
+      - icon: twitter
+        href: https://twitter.com/Sethraz
+        aria-label: Sethraz Twitter
+      - icon: github
+        href: https://github.com/sethraz/GEI-429-Teledeteccion
+        aria-label: Curso Teledetección GitHub
+
+
   sidebar: 
     style: "docked"
     search: true

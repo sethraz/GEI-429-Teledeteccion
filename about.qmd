@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "A cerca de"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Prof. Omar E. Barrantes Sotela es académico de la Escuela de Ciencias Geográficas.
