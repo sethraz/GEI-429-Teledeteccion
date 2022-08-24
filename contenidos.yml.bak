@@ -1,0 +1,9 @@
+  
+- title: Introducción a la teledetección
+  subtitle: Aspectos generales
+  links:
+    - text: Introducción
+      href: ../docs/c01_intro.qmd
+    - text: Principios físicos
+      href: ../docs/c02_basefisica/c02_basefisica.qmd
+    

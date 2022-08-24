@@ -1,10 +1,12 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "Curso GEI-429: Teledetección "
+  title: "GEI-429"
+  subtitle: "Teledetección"
   page-navigation: true
-  logo: ./fig/ECG-UNA.png
+  logo: ./fig/ecg-una.png
   navbar:
     left:
       - href: index.qmd
@@ -27,8 +29,8 @@ website:
     style: "docked"
     search: true
     contents: 
-      - section: "Introducción a la Teledetección"
-        contents:
+      - section: "Contenidos"
+        contents: 
           - ./docs/c01_intro/c01_intro.qmd
           - ./docs/c02_basefisica/c02_basefisica.qmd
         

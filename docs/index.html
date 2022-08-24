@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-0.9.612">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Omar E. Barrantes Sotela">
+<meta name="description" content="La percepción remota es ciencia y técnica que permite obtener información acerca de los objetos sobre la superficie terrestre o acuática, sin tener contacto directo con ellos. Se basa en mediciones de la energía electromagnética reflejada o emitida por los objetos de interés, sobre la superficie de la tierra.">
+
+<title>Curso GEI-429: Teledetección</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Sín resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la busqueda",
+    "search-hide-matches-text": "Esconder resultados adicionales",
+    "search-more-match-text": "hay más resultados en este documento",
+    "search-more-matches-text": "más resultados en este documento",
+    "search-clear-button-title": "Borrar",
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Eviar"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">GEI-429</span>
+  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page">Inicio</a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-temas" role="button" data-bs-toggle="dropdown" aria-expanded="false">Temas</a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-temas">    
+        <li class="dropdown-header">./docs/c01_intro/c01_intro.qmd</li>
+        <li class="dropdown-header">./docs/c02_basefisica/c02_basefisica.qmd</li>
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html">Geóg. Omar E. Barrantes Sotela, M.Sc.</a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Contenidos</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+    </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<div class="hero-banner">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fig/DJI_0109_1600x584.jpg" class="img-fluid figure-img" alt="Stack of three printed articles with text, code, and graphics." width="1600"></p>
+</figure>
+</div>
+</div>
+<div class="content-block">
+<section id="descripción-del-curso" class="level1">
+<h1>Descripción del curso</h1>
+<p>El curso pretende introducir al estudiante en el conocimiento de principios básicos de teledetección digital para realizar análisis de datos obtenidos por sensores remotos, aplicando metodologías y tecnologías apropiadas para el análisis de imágenes. En el laboratorio se realizan prácticas dirigidas hacia el procesamiento de imágenes, por la situación de emergencia que vive el país ante la pandemia, este curso no tendrá trabajo de campo para la verificación de la información procesada en el laboratorio.</p>
+<p>La percepción remota es ciencia y técnica que permite obtener información acerca de los objetos sobre la superficie terrestre o acuática, sin tener contacto directo con ellos. Se basa en mediciones de la energía electromagnética reflejada o emitida por los objetos de interés, sobre la superficie de la tierra.</p>
+</section>
+<section id="objetivos" class="level1">
+<h1>Objetivos</h1>
+<ul>
+<li>Dotar al estudiante conocimientos teóricos de los sensores remotos para interpretar imágenes aplicando métodos visuales y automatizados, a fin de evaluar la dinámica de uso y cobertura de la tierra.</li>
+<li>Desarrollar en el estudiante las habilidades para el uso de imágenes de satélite que permita la evaluación, planificación, manejo y administración de los recursos naturales según comportamiento de la energía reflectada por los diferentes cuerpos en la superficie terrestre.</li>
+</ul>
+<section id="objetivos-específicos" class="level2">
+<h2 data-anchor-id="objetivos-específicos">Objetivos específicos</h2>
+<ul>
+<li>Introducir los conceptos elementales de la ciencia y técnica de la percepción remota, a través de prácticas dirigidas que permitan afianzar habilidades para su desarrollo profesional.</li>
+<li>Analizar la dinámica de la superficie terrestre a partir de los sensores remotos, considerando la variación espectral, temporal, radiométrica, espacial y angular de los objetos para la identificación de elementos, hechos y fenómenos geográficos.</li>
+<li>Aplicar metodologías y técnicas apropiadas en el tratamiento de la imagen digital mediante el uso de herramientas e instrumentos tecnológicos, para la obtención de productos cartográficos de alta calidad y eficiencia.</li>
+<li>Analizar las limitaciones de los productos de sensores remotos a partir de la experiencia desarrollada en las actividades prácticas para su implementación en el desarrollo de proyectos de teledetección aplicados a la producción cartográfica.</li>
+</ul>
+</section>
+</section>
+</div>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copiada");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

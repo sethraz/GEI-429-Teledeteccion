@@ -32,7 +32,6 @@ ul.task-list{list-style: none;}
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -93,14 +92,14 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="index.css">
 </head>
 
-<body class="nav-sidebar nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Curso GEI-429: Teledetección</span>
+    <span class="navbar-title">GEI-429</span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
@@ -124,39 +123,109 @@ ul.task-list{list-style: none;}
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">A cerca de</a>
+    <a class="nav-link" href="./about.html">Geóg. Omar E. Barrantes Sotela, M.Sc.</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+    <div class="sidebar-item-container"> 
+        <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Contenidos</a>
+      <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+        <i class="bi bi-chevron-right ms-2"></i>
+      </a>
+    </div>
+    <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./docs/c01_intro/c01_intro.html" class="sidebar-item-text sidebar-link">Tema 01: Introducción Teledetección</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./docs/c02_basefisica/c02_basefisica.html" class="sidebar-item-text sidebar-link">Tema 02: Principios físicos de la Teledetección</a>
+  </div>
+</li>
+    </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
 <!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    </div>
 <!-- main -->
+<main class="content" id="quarto-document-content">
 
 
 
+<div class="hero-banner">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="fig/DJI_0109_1600x584.jpg" class="img-fluid figure-img" alt="Stack of three printed articles with text, code, and graphics." width="1600"></p>
+</figure>
+</div>
+</div>
 <div class="content-block">
+<section id="descripción-del-curso" class="level1">
+<h1>Descripción del curso</h1>
 <p>El curso pretende introducir al estudiante en el conocimiento de principios básicos de teledetección digital para realizar análisis de datos obtenidos por sensores remotos, aplicando metodologías y tecnologías apropiadas para el análisis de imágenes. En el laboratorio se realizan prácticas dirigidas hacia el procesamiento de imágenes, por la situación de emergencia que vive el país ante la pandemia, este curso no tendrá trabajo de campo para la verificación de la información procesada en el laboratorio.</p>
+<p>La percepción remota es ciencia y técnica que permite obtener información acerca de los objetos sobre la superficie terrestre o acuática, sin tener contacto directo con ellos. Se basa en mediciones de la energía electromagnética reflejada o emitida por los objetos de interés, sobre la superficie de la tierra.</p>
+</section>
+<section id="objetivos" class="level1">
+<h1>Objetivos</h1>
+<ul>
+<li>Dotar al estudiante conocimientos teóricos de los sensores remotos para interpretar imágenes aplicando métodos visuales y automatizados, a fin de evaluar la dinámica de uso y cobertura de la tierra.</li>
+<li>Desarrollar en el estudiante las habilidades para el uso de imágenes de satélite que permita la evaluación, planificación, manejo y administración de los recursos naturales según comportamiento de la energía reflectada por los diferentes cuerpos en la superficie terrestre.</li>
+</ul>
+<section id="objetivos-específicos" class="level2">
+<h2 data-anchor-id="objetivos-específicos">Objetivos específicos</h2>
+<ul>
+<li>Introducir los conceptos elementales de la ciencia y técnica de la percepción remota, a través de prácticas dirigidas que permitan afianzar habilidades para su desarrollo profesional.</li>
+<li>Analizar la dinámica de la superficie terrestre a partir de los sensores remotos, considerando la variación espectral, temporal, radiométrica, espacial y angular de los objetos para la identificación de elementos, hechos y fenómenos geográficos.</li>
+<li>Aplicar metodologías y técnicas apropiadas en el tratamiento de la imagen digital mediante el uso de herramientas e instrumentos tecnológicos, para la obtención de productos cartográficos de alta calidad y eficiencia.</li>
+<li>Analizar las limitaciones de los productos de sensores remotos a partir de la experiencia desarrollada en las actividades prácticas para su implementación en el desarrollo de proyectos de teledetección aplicados a la producción cartográfica.</li>
+</ul>
+</section>
+</section>
 </div>
 
 
 
 
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
 
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
@@ -227,14 +296,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-
-</div>
-<div class="listing-no-matching d-none">
-No hay resultados
-</div>
-</div></div> <!-- /content -->
+</div> <!-- /content -->
 
 
 
