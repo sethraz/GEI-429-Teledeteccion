@@ -4,9 +4,9 @@ project:
 
 website:
   title: "GEI-429: Teledetección"
-  image: /fig/ecg_una.png
+  image: ./fig/ecg_una.png
   page-navigation: true
-  logo: /fig/ecg_white.png
+  logo: ./fig/ecg_white.png
   navbar:
     left:
       - href: index.qmd
