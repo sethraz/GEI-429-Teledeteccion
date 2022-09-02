@@ -11,12 +11,12 @@ listing:
   contents: contenidos.yml
 description: |
   La percepción remota es ciencia y técnica que permite obtener información acerca de los objetos sobre la superficie terrestre o acuática, sin tener contacto directo con ellos. Se basa en mediciones de la energía electromagnética reflejada o emitida por los objetos de interés, sobre la superficie de la tierra.
-image: /fig/ecg_white.png
+image: ./fig/ecg_white.png
 ---
 
 # Teledetección
 ::: hero-banner
-![](fig/DJI_0109_1600x584.jpg){fig-align="center" width="1600"}
+![](./fig/DJI_0109_1600x584.jpg){fig-align="center" width="1600"}
 :::
 
 ::: content-block

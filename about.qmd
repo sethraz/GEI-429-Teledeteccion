@@ -2,7 +2,7 @@
 title: "Geóg. Omar E. Barrantes Sotela, M.Sc."
 about:
   template: trestles
-  image: /fig/me.jpg
+  image: ./fig/me.jpg
   links:
     - icon: twitter
       text: twitter
