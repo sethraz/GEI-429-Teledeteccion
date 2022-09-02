@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "GEI-429"
-  subtitle: "Teledetección"
+  title: "GEI-429: Teledetección"
+  image: /fig/ecg_una.png
   page-navigation: true
-  logo: ./fig/ecg-una.png
+  logo: /fig/ecg_white.png
   navbar:
     left:
       - href: index.qmd
@@ -24,22 +24,22 @@ website:
         href: https://github.com/sethraz/GEI-429-Teledeteccion
         aria-label: Curso Teledetección GitHub
 
-
-  sidebar: 
-    style: "docked"
-    search: true
-    contents: 
-      - section: "Contenidos"
-        contents: 
-          - ./temas/c01_intro/c01_intro.qmd
-          - ./temas/c02_basefisica/c02_basefisica.qmd
-        
+  sidebar:
+    - id: inicio
+      title: "Contenidos"
+      style: "docked"
+      search: true
+      contents: 
+        - section: "Aspectos generales"
+          contents: 
+            - ./temas/c01_intro/c01_intro.qmd
+            - ./temas/c02_basefisica/c02_basefisica.qmd
+            - ./temas/c03_sensores/c03_sensores.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
 editor: visual
 
