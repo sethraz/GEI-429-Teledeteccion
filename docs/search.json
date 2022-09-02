@@ -28,11 +28,11 @@
     "text": "Afiliaciones\n\nColegio de Profesionales en Geografía de Costa Rica. No.: CPG-0050.\nSETENA. Consultor Ambiental No.: CI-033-11.\nInstituto Panamericano de Geografía e Historia - IPGH}. Miembro.\nAmerican Association of Geographers}. Miembro."
   },
   {
-    "objectID": "index.html#objetivos-específicos",
-    "href": "index.html#objetivos-específicos",
-    "title": "GEI-429",
-    "section": "Objetivos específicos",
-    "text": "Objetivos específicos\n\nIntroducir los conceptos elementales de la ciencia y técnica de la percepción remota, a través de prácticas dirigidas que permitan afianzar habilidades para su desarrollo profesional.\nAnalizar la dinámica de la superficie terrestre a partir de los sensores remotos, considerando la variación espectral, temporal, radiométrica, espacial y angular de los objetos para la identificación de elementos, hechos y fenómenos geográficos.\nAplicar metodologías y técnicas apropiadas en el tratamiento de la imagen digital mediante el uso de herramientas e instrumentos tecnológicos, para la obtención de productos cartográficos de alta calidad y eficiencia.\nAnalizar las limitaciones de los productos de sensores remotos a partir de la experiencia desarrollada en las actividades prácticas para su implementación en el desarrollo de proyectos de teledetección aplicados a la producción cartográfica."
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "GEI-429: Teledetección",
+    "section": "",
+    "text": "Contenidos teóricos\n\n\nAspectos generales\n\n\n\n\n\n\n[object Object],[object Object],[object Object]\n\n\n\n\n\n\nNo hay resultados"
   },
   {
     "objectID": "temas/c01_intro/c01_intro.html#antecedentes",
@@ -166,5 +166,40 @@
     "title": "Tema 02: Principios físicos de la Teledetección",
     "section": "Diversas aplicaciones",
     "text": "Diversas aplicaciones\nLa Teledetección puede realizarse en diferentes regiones del espectro electromagnético. El uso de diferentes longitudes de onda ocurre principalmente por las diferentes aplicaciones que pueden plantearse."
+  },
+  {
+    "objectID": "temas/c03_sensores/c03_sensores.html#tipos-de-órbita",
+    "href": "temas/c03_sensores/c03_sensores.html#tipos-de-órbita",
+    "title": "Tema 03: Satélites y Sensores",
+    "section": "Tipos de órbita",
+    "text": "Tipos de órbita\n\n\n1. Polar: Es aquella en la que un satélite pasa por encima o casi por encima de ambos polos del cuerpo en órbita (generalmente un planeta como la Tierra, pero posiblemente otro cuerpo como la Luna o el Sol) en cada revolución. Tiene una inclinación de unos 60 a 90 grados con respecto al ecuador del cuerpo.\nLas órbitas polares se utilizan para el mapeo terrestre, satélites de reconocimiento, así como para algunos satélites meteorológicos. Los satélites de órbita casi polar eligen comúnmente una órbita heliosincrónica, donde cada paso orbital sucesivo ocurre a la misma hora local del día.\nFrecuencia: 1-3 Observaciones por día, por sensor.\n\n\n\n\nÓrbita Polar\n\n\n\n\n\n\n2. Geoestacionaria: También conocida como órbita ecuatorial geosíncrona (GEO), es una órbita geosíncrona circular de 35 786 km de altitud sobre el ecuador de la Tierra (42 164 km de radio desde el centro de la Tierra) y sigue la dirección de rotación de la Tierra. Un objeto en tal órbita tiene un período orbital igual al período de rotación de la Tierra, un día sidéreo, por lo que para los observadores terrestres parece inmóvil, en una posición fija en el cielo.\nLos satélites de comunicaciones a menudo se colocan en una órbita geoestacionaria para que las antenas satelitales basadas en la Tierra (ubicadas en la Tierra) no tengan que girar para rastrearlos, sino que puedan apuntar permanentemente a la posición en el cielo donde se encuentran los satélites. Los satélites meteorológicos también se colocan en esta órbita para el monitoreo y la recopilación de datos en tiempo real, y los satélites de navegación proporcionan un punto de calibración conocido y mejoran la precisión del GPS.\nFrecuencia: Entre cada 30 segundos a 15 minutos.\n\n\n\n\nComparación de las órbitas de GPS, GLONASS, Galileo y COMPASS (satélites de órbita terrestre media) con la Estación Espacial Internacional, el Telescopio Espacial Hubble, las órbitas geoestacionarias y de cementerio, y el tamaño nominal de la Tierra. Elaborado por Cmglee\n\n\n\n\n\n¿Son muchos lo objetos en órbita terrestre?\nEn la actualidad son tantos los objetos en órbita, que es necesario disponer de servicios de rastreo de objetos, satélites, cohetes y debris, para evitar colisiones.\n\n\n\nVisualizador de satélites en órbita terrestre. Fuente: LeoLabs Space.\n\n\n\n\nPasos ascendentes y descendentes\nLa mayoría de las plataformas de satélites de teledetección actuales se encuentran en órbitas casi polares, lo que significa que el satélite viaja hacia el norte en un lado de la Tierra y luego hacia el polo sur en la segunda mitad de su órbita. Estos se llaman pases ascendentes y descendentes, respectivamente. Si la órbita también es sincronizada con el sol, lo más probable es que el paso ascendente esté en el lado sombreado de la Tierra, mientras que el paso descendente esté en el lado iluminado por el sol.\nLos sensores que registran la energía solar reflejada solo captan la imagen de la superficie en un pase descendente, cuando hay iluminación solar disponible. Los sensores activos que proporcionan su propia iluminación o los sensores pasivos que registran la radiación emitida (por ejemplo, térmica) también pueden generar imágenes de la superficie en pasadas ascendentes."
+  },
+  {
+    "objectID": "temas/c03_sensores/c03_sensores.html#franja-de-cobertura-swath-width",
+    "href": "temas/c03_sensores/c03_sensores.html#franja-de-cobertura-swath-width",
+    "title": "Tema 03: Satélites y Sensores",
+    "section": "Franja de Cobertura (Swath Width)",
+    "text": "Franja de Cobertura (Swath Width)\nCuando un satélite gira alrededor de la Tierra, el sensor “ve” una determinada porción de la superficie terrestre. El área fotografiada en la superficie se denomina franja de cobertura. Las franjas de imágenes para sensores espaciales generalmente varían entre decenas y cientos de kilómetros de ancho.\n\n\n\nSe ilustra las dimensiones cubiertas por los instrumentos del radar de precipitación de frecuencia dual (DPR) y del generador de imágenes por microondas (GMI) del GPM Core Observatory Satellite. Fuente: NASA, GPM Mission.\n\n\nA medida que el satélite órbita la Tierra de polo a polo, su posición este-oeste no cambiaría si la Tierra no girara. Sin embargo, visto desde la Tierra, parece que el satélite se desplaza hacia el oeste porque la Tierra gira (de oeste a este) debajo de él. Este movimiento aparente permite que la franja del satélite cubra una nueva área con cada pasada consecutiva. La órbita del satélite y la rotación de la Tierra trabajan juntas para permitir una cobertura completa de la superficie de la Tierra, después de que haya completado un ciclo completo de órbitas.\n\n\n\nMapa de ruta de Landsat 8, para Centroamérica. Fuente: NASA.\n\n\n\nEvolución de toma de imágenes por (Path/Row)\n\n\n\nEl Archivo Landsat contiene cincuenta años de datos de satélites de observación de la Tierra. La animación muestra el número acumulativo de escenas Landsat. Los colores en los mapas muestran detalles sobre la cantidad de productos por Ruta/Fila. Fuente: NASA.\n\n\nRastreo de satelites"
+  },
+  {
+    "objectID": "temas/c03_sensores/c03_sensores.html#tipos-de-sensores-pasivos-y-activos",
+    "href": "temas/c03_sensores/c03_sensores.html#tipos-de-sensores-pasivos-y-activos",
+    "title": "Tema 03: Satélites y Sensores",
+    "section": "Tipos de Sensores: Pasivos y Activos",
+    "text": "Tipos de Sensores: Pasivos y Activos\nSensores Pasivos\nDetectan solo lo que se emite desde el paisaje o se refleja desde otra fuente (por ejemplo, la luz reflejada por el sol). Ejemplo: MODIS, MISR, OMI, VIIRS.\nSensores Activos\nLos instrumentos emiten su propia señal y el sensor mide lo que se refleja (por ejemplo, sonar y radar). Ejemplo: CALIPSO.\n\n\n\nTipos de Sensores."
+  },
+  {
+    "objectID": "temas/c03_sensores/c03_sensores.html#tipos-de-resolución",
+    "href": "temas/c03_sensores/c03_sensores.html#tipos-de-resolución",
+    "title": "Tema 03: Satélites y Sensores",
+    "section": "Tipos de Resolución:",
+    "text": "Tipos de Resolución:\n\nResolución espacial: Se refiere a la medición espacial mínima posible.\nResolución temporal: Frecuencia de la medición.\nResolución espectral: Número de canales independientes.\nResolución radiométrica: Nivel de sensividad de los detectores.\n\n\nCada tipo de resolución depende de la configuración orbital del satélite y el diseño de los sensores. Las resoluciones son diferentes para cada sensor.\n\n\nResolución espacial\nPixel: Es la unidad más pequeña de una imagen.\n\n\n\nUna imagen digital se compone de una matriz bidimensional de elementos de imagen individuales, llamados píxeles, dispuestos en columnas en filas.\nCada píxel representa un área en la superficie de la Tierra.\nUn píxel tiene un valor de intensidad y una dirección de ubicación en la imagen 2D.\nLa resolución espacial se define por el tamaño de un píxel.\n\n\n\n\n\nEl Pixel\n\n\n\n\n¿Importa la resolución espacial?\n\n\n\nDiferencia entre resoluciones espaciales\n\n\n\n\nResolución espectral\n\nLa resolución espectral describe la capacidad de un sensor para definir intervalos finos de longitud de onda.\nCuanto más fina sea la resolución espectral, más estrecho será el rango de longitud de onda para un canal o banda en particular.\n\n\n\n\nResolución radiométrica\n\nLos datos de imágenes están representados por números digitales positivos que varían de 0 a (uno menos que) una potencia seleccionada de 2.\nEl número máximo de niveles de brillo disponibles depende del número de bits (representa la resolución radiométrica) utilizados para representar la energía registrada.\n\nCuanto mayor sea este número, mayor será la resolución radiométrica.\n\nImportancia de la resolución radiométrica\n\nDetecta la diferencia en los niveles de brillo.\nCuanto más sensible sea el sensor, mayor será la resolución radiométrica.\nSi la precisión radiométrica es alta, la imagen será nítida. Se expresa en bits."
+  },
+  {
+    "objectID": "temas/c03_sensores/c03_sensores.html#valores-radiométricos-de-una-imagen",
+    "href": "temas/c03_sensores/c03_sensores.html#valores-radiométricos-de-una-imagen",
+    "title": "Tema 03: Satélites y Sensores",
+    "section": "Valores radiométricos de una imagen",
+    "text": "Valores radiométricos de una imagen\n\n\n\nBits\nValores\n\n\n\n\n1 Bits\n\\(2^1 =\\) 2\n\n\n4 Bits\n\\(2^4 =\\) 16\n\n\n8 Bits\n\\(2^8 =\\) 256\n\n\n16 Bits\n\\(2^{16} =\\) 65536\n\n\n32 Bits\n\\(2^{32} =\\) 4294967296\n\n\n\n\nEjemplo de resolución radiométrica\n\n\n\n\n\n\n\nResolución temporal\nCon qué frecuencia un satélite puede proporcionar observación de la misma área en la tierra.\n\nDepende principalmente del ancho de la franja del satélite - cuanto mayor sea la franja -, mayor será la resolución temporal."
   }
 ]

@@ -6,4 +6,6 @@
       href: ../temas/c01_intro.qmd
     - text: Principios físicos
       href: ../temas/c02_basefisica/c02_basefisica.qmd
+    - text: Satélites y Sensores
+      href: ../temas/c03_sensores/c03_sensores.qmd
     
