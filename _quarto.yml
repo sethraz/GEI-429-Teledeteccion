@@ -15,6 +15,13 @@ website:
         menu:
           - ./temas/c01_intro/c01_intro.qmd
           - ./temas/c02_basefisica/c02_basefisica.qmd
+          - ./temas/c03_sensores/c03_sensores.qmd
+      - text: "Demos"
+        menu:
+          - ./practicas/p01/p01_raster_vis.qmd
+      - text: "Presentaciones"
+        menu:
+          - ./press/press04_imagedigit/press04_imagedigit.qmd
       - about.qmd
   right:
       - icon: twitter
@@ -35,6 +42,12 @@ website:
             - ./temas/c01_intro/c01_intro.qmd
             - ./temas/c02_basefisica/c02_basefisica.qmd
             - ./temas/c03_sensores/c03_sensores.qmd
+        - section: "Demos"
+          contents: 
+            - ./practicas/p01/p01_raster_vis.qmd
+        - section: "Presentaciones"
+          contents: 
+            - ./press/press04_imagedigit/press04_imagedigit.qmd
 
 format:
   html:

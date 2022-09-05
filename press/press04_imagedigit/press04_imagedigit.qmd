@@ -1,0 +1,206 @@
+---
+title: "La imagen digital"
+author: "Omar E. Barrantes Sotela"
+institute: "Escuela de Ciencias Geográficas"
+editor: visual
+format: 
+  revealjs:
+    #incremental: true
+    logo: fig/ECG-UNA.png
+    footer: "Escuela de Ciencias Geográficas, UNA."
+    slide-number: true
+    multiplex: true
+    scrollable: true
+    theme: [simple, assets/monash.scss]
+    show-slide-number: all
+    self-contained: true
+    controls: true
+    width: 1280
+    height: 720
+    css: [assets/syntax-highlight.css, assets/custom.css, assets/pacman.css]
+cls: apa.cls
+bibliography: ref_tele.bib
+execute:
+  echo: true
+---
+
+## Las imágenes digitales
+
+Son una **representación bidimensional** de una imagen *a partir* de una **matriz numérica**, frecuentemente en binario (unos y ceros). Dependiendo de si la resolución de la imagen es estática o dinámica, puede tratarse de una imagen matricial (o mapa de bits) o de un gráfico vectorial.
+
+## El Pixel
+
+Es la unidad más pequeña de una imagen.
+
+::: columns
+::: {.column width="50%"}
+-   Una imagen digital se compone de una matriz bidimensional de elementos de imagen individuales, llamados píxeles, dispuestos en columnas en filas.
+-   Cada píxel representa un área en la superficie de la Tierra.
+-   Un píxel tiene un valor de intensidad y una dirección de ubicación en la imagen 2D.
+-   La resolución espacial se define por el tamaño de un píxel.
+:::
+
+::: {.column width="50%"}
+![El Pixel](fig/raster_dataset.png){fig-align="center"}
+:::
+:::
+
+## Estructura de una imagen digital
+
+![Estructura de una imagen digital](fig/Captura5.jpg){fig-align="center"}
+
+## La información de las imágenes
+
+Para un correcta uso e interpretación de las imágenes es necesario conocer sus principales características. Es necesario por lo menos conocer la siguiente información [@Chuvieco2008]:
+
+## Datos de la imágen
+
+-   Fecha de adquisición: Es fundamental para realizar las preguntas adecuadas (ciclo fenológico, crecimiento, cambios, etc.)
+
+-   Coordenadas del centro de la imagen.
+
+-   Coordenadas del punto nadir (punto de intersección entre la superficie terrestre y una perpendicular desde el centro de adquisición.)
+
+-   Sensores y bandas.
+
+-   Ángulos solares: Indican las condiciones iluminación y sectores de sombra (relación relieve-iluminación).
+
+-   Ángulo acimutal, medido desde el norte geográfico y en sentido de las manecillas del reloj.
+
+-   Datos del procesado. Incluye esquema de datos del sensor.
+
+-   Agencia y proyecto.
+
+-   Código de identificación de la escena. (LC08_L1TP_016053_20201227_20201227_01_RT)
+
+-   Marcas fiduciarias (caso de imágenes análogas).
+
+## Los metadatos
+
+La mayoría de la información de una imagen se indica en los [**metadatos**]{style="color:red;"}. Por lo general son un archivo de texto en formatos **`.txt`, `.dat`, `.inf`, `.xml`**, etc.
+
+Los metadatos están [organizados]{style="color:blue;"} mediante un [esquema específico]{style="color:blue;"} a cada formato de imagen.
+
+## Estándar de los metadatos en Costa Rica
+
+Para Costa Rica están los lineamientos para la producción, publicación y estandarización de la información geoespacial, mediante:
+
+-   el Catálogo de objetos geográficos para datos fundamentales y
+-   la Norma técnica sobre el Perfil oficial de metadatos geográficos.
+
+Los cuales se basan en las **normas ISO 19110, 19115** y **19126**.
+
+## Formatos de imágenes digitales
+
+A continuación se muestran los principales formatos de imágenes digitales:
+
+```{r}
+#| label: tbl-tipos.img 
+#| tbl-cap: Formatos más comunes de imágenes digitales
+#| echo: false 
+#| out-height: "500"
+
+library(DT) 
+df <- read.csv('tipos_img.csv') 
+names(df) <- c("Tipo","Driver","Extensión","Multibanda")
+DT::datatable(df, class = "cell-border stripe", rownames = FALSE,
+              filter ="top", editable =F,
+              caption = "Formatos más comunes de imágenes digitales",
+              height = 500,
+              extension = "Buttons", 
+              options = list(dom="Bfrtip",
+                             buttons =c("copy", "csv", "excel", "pdf","print")))
+
+```
+
+## La escritura de la imagen
+
+Se necesita información adicional para interpretar los datos de la imagen, como el número de filas, columnas y bandas, si hay un mapa en color, y la latitud y la longitud para relacionar la imagen con las ubicaciones geoespaciales.
+
+::: callout-note
+## Nota
+
+Esta **información** se puede proporcionar en un **encabezado de archivo** (típico en las cintas heredadas que se usaron originalmente para almacenar datos de imágenes satelitales) o en un **archivo complementario**.
+:::
+
+## Formatos de encabezados
+
+Existen diferentes tipos de formatos para almacenar las fotografías aéreas, las imágenes satelitales y los datos espectrales.
+
+-   **Band Interleaved by Line (BIL)**: permite un acceso bastante fácil a la información espacial y espectral, lo que lo convierte en un formato ráster común compatible con muchos sistemas GIS.
+-   **Bands Interleaved by Pixels (BIP)**: óptimo para acceder a la información espectral de la imagen.
+-   **Bands SeQuential (BSQ)**: óptimo para acceder a la información espacial de la imagen o información para un color o banda espectral en particular.
+
+## Estructura de los formatos
+
+![Tipos de escritura](./fig/Format_Image.jpg)
+
+## Tipos de Codificación
+
+Está relacionado a la resolución radiométrica.
+
+```{r echo=FALSE}
+b1 <- 2^2
+b4 <- 2^4
+b8 <- 2^8
+b16 <- 2^16
+b32 <- 2^32
+```
+
+::: callout-note
+## Recordatorio
+
+Valores radiométricos de una imagen
+
+| Bits    | Valores            | Intervalo                |
+|---------|--------------------|--------------------------|
+| 2 Bits  | $2^2 =$ `r b1`     | ($0 \backsim$ `r b1 -1`) |
+| 4 Bits  | $2^4 =$ `r b4`     | ($0 \backsim$ `r b4-1`)  |
+| 8 Bits  | $2^8 =$ `r b8`     | ($0 \backsim$ `r b8-1`)  |
+| 16 Bits | $2^{16} =$ `r b16` | ($0 \backsim$ `r b16-1`) |
+| 32 Bits | $2^{32} =$ `r b32` | ($0 \backsim$ `r b32-1`) |
+:::
+
+## Tipos de codificación
+
+Se utiliza por lo general:
+
+-   **ASCII:** Es un estándar de codificación de caracteres para la comunicación electrónica. Los códigos ASCII representan texto en computadoras, equipos de telecomunicaciones y otros dispositivos. La mayoría de los esquemas de codificación de caracteres modernos se basan en ASCII.
+
+-   **Binario:** Es un tipo de código, consiste en un sistema de unos y ceros, diseñado para representar un valor **«verdadero»** o **«falso»** en operaciones lógicas. Por ejemplo, dos bits tienen cuatro estados. Ambos pueden estar apagados, ambos pueden estar encendidos o uno puede estar apagado y el otro puede estar encendido.
+
+## Funciones de tratamiento digital
+
+-   Operaciones generales.
+
+-   Corrección radiométrica y geométrica.
+
+-   Realces del contrastre.
+
+-   Filtros.
+
+-   Transformaciones.
+
+-   Clasificación.
+
+-   Detección de cambios.
+
+-   Análisis de texturas.
+
+## Utilidades de la visualización
+
+-   Ampliar / reducción de la imagen.
+
+-   Obtener coordenadas y valores de ND.
+
+-   Digitalizar vectores sobre la imagen.
+
+-   Desplazarse en varias escalas.
+
+-   Superposición de vectores y gráficos.
+
+## 
+
+
+
+## Referencias

@@ -9,3 +9,12 @@
     - text: Satélites y Sensores
       href: ../temas/c03_sensores/c03_sensores.qmd
     
+- title: Presentaciones
+  links:
+    - text: Imagen Digital
+      href: ../press/press04_imagedigit/press04_imagedigit.qmd
+
+- title: Demostraciones
+  links:
+    - text: Manejo y mejoreas de imagen digital
+      href: ../practicas/p01/p01_raster_vis.qmd
