@@ -1,0 +1,10 @@
+﻿Tipo de archivo,Nombre largo,extensión,Suporta multibanda
+raster,Formato 'nativo',.grd,Si
+ascii,ESRI Ascii,.asc,No
+SAGA,SAGA GIS,.sdat,No
+IDRISI,IDRISI,.rst,No
+CDF,netCDF (requires ncdf4),.nc,Si
+GTiff,GeoTiff (requires rgdal),.tif,Si
+ENVI,ENVI .hdr Labelled,.envi,Si
+EHdr,ESRI .hdr Labelled,.bil,Si
+HFA,Erdas Imagine Image (.img),.img,Si

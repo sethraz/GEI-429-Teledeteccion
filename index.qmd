@@ -15,6 +15,7 @@ image: ./fig/ecg_white.png
 ---
 
 # Teledetección
+
 ::: hero-banner
 ![](./fig/DJI_0109_1600x584.jpg){fig-align="center" width="1600"}
 :::
@@ -38,4 +39,3 @@ La percepción remota es ciencia y técnica que permite obtener información ace
 -   Aplicar metodologías y técnicas apropiadas en el tratamiento de la imagen digital mediante el uso de herramientas e instrumentos tecnológicos, para la obtención de productos cartográficos de alta calidad y eficiencia.
 -   Analizar las limitaciones de los productos de sensores remotos a partir de la experiencia desarrollada en las actividades prácticas para su implementación en el desarrollo de proyectos de teledetección aplicados a la producción cartográfica.
 :::
-

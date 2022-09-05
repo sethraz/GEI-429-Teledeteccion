@@ -1,205 +1,121 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Geóg. Omar E. Barrantes Sotela, M.Sc.",
-    "section": "",
-    "text": "Prof. Omar E. Barrantes Sotela es académico de la Escuela de Ciencias Geográficas desde el 2010. Participante del Programa para la Promoción y Gestión del Ordenamiento Territorial (PROGOT) y coordinador de la Actividad Permanente de Asesorías y Capacitación de la Gestión Territorial."
-  },
-  {
-    "objectID": "about.html#educación",
-    "href": "about.html#educación",
-    "title": "Geóg. Omar E. Barrantes Sotela, M.Sc.",
-    "section": "Educación",
-    "text": "Educación\nUniversidad Nacional, Heredia | Heredia, Costa Rica. Bachiller en Ciencias Geográficas con énfasis en Ordenamiento Territorial | 2009.\nUniversidad Nacional, Heredia | Heredia, Costa Rica. Licenciatura en Ciencias Geográficas con énfasis en Ordenamiento Territorial (Magna Cum Laude) | 2012.\nUniversidad de Costa Rica, San Ramón | Alajuela, Costa Rica. Maestría Académica en Desarrollo Sostenible con énfasis en Conservación de los Recursos Biológicos (Mención de honor) | 2020."
-  },
-  {
-    "objectID": "about.html#experiencia",
-    "href": "about.html#experiencia",
-    "title": "Geóg. Omar E. Barrantes Sotela, M.Sc.",
-    "section": "Experiencia",
-    "text": "Experiencia\n\nEnseñanza Superior Universitaria (2013-presente)\nAcadémico de la Universidad Nacional (UNA) - Escuela de Ciencias Geográficas (ECG-UNA). | Cursos: - Métodos cuantitativos y modelos en Geografía, - Geoestadística II, - Cartografía, - Cartografía Digital y - Teledetección.\n\n\nProgramas Académicos\nPrograma para la Promoción de la Gestión y el Ordenamiento del Territorio (Fase II) (2021-2025). Código: 0082-20.|| Programa para la Promoción de la Gestión y el Ordenamiento del Territorio (2016-2020). Código: 0315-14.\n\n\nProyectos de Investigación\nInvestigador responsable\n\nAsesorías y capacitación en la gestión municipal para el ordenamiento del territorio. (2021 - 2023). Código: 0150-20.\nClima urbano y variabilidad climática en la planificación urbana. Estudio de caso en los centros urbanos de Alajuela y Heredia, Costa Rica. (2016 - 2018). Código: 0384-15.\n\nInvestigador participante\n\nDesarrollo de estrategias y capacidades en adaptación al cambio climático en centros urbanos: caso de estudio Ciudad de San José. (2021-2023). Código (0598-19).\nAsesorías y capacitación en la gestión municipal para el ordenamiento del territorio. (2016 - 2021). Código: 0434-15.\nRed de gestión del riesgo y cambio climático. (2017 - 2019). Código 0508-16.\nSistematización y seguimiento de las experiencias de ordenamiento territorial y planes reguladores en la Escuela de Ciencias Geográficas. (2012 - 2015). Código: 0372-12.\nObservatorio Ambiental - Dimensión: Ordenamiento Territorial. (2010).\n\n\n\nProyectos de Vinculación Externa\n\nEstudios de Planificación y Ordenamiento del Territorio: Upala. Código: 0092-21. (2021 - 2023).\nActualización del Plan Regulador del Cantón de Poás, integrando la variable ambiental. Código: 0302-14. (2016 - 2021).\nOrdenamiento Territorial: Formulación y Evaluación de Planes Reguladores - Plan Regulador de Upala y Guatuso. (2014).\nOrdenamiento Territorial: Formulación y Evaluación de Planes Reguladores - Plan Regulador Los Chiles. (2014)."
-  },
-  {
-    "objectID": "about.html#afiliaciones",
-    "href": "about.html#afiliaciones",
-    "title": "Geóg. Omar E. Barrantes Sotela, M.Sc.",
-    "section": "Afiliaciones",
-    "text": "Afiliaciones\n\nColegio de Profesionales en Geografía de Costa Rica. No.: CPG-0050.\nSETENA. Consultor Ambiental No.: CI-033-11.\nInstituto Panamericano de Geografía e Historia - IPGH}. Miembro.\nAmerican Association of Geographers}. Miembro."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "GEI-429: Teledetección",
     "section": "",
-    "text": "Contenidos teóricos\n\n\nAspectos generales\n\n\n\n\n\n\n[object Object],[object Object],[object Object]\n\n\n\n\n\n\nNo hay resultados"
+    "text": "Contenidos teóricos\n\n\nAspectos generales\n\n\n\n\n\n\n[object Object],[object Object],[object Object]\n\n\n\n\n\n\n\n\nPresentaciones\n\n\n\n\n\n\n\n\n\n[object Object]\n\n\n\n\n\n\n\n\nDemostraciones\n\n\n\n\n\n\n\n\n\n[object Object]\n\n\n\n\n\n\nNo hay resultados"
   },
   {
-    "objectID": "temas/c01_intro/c01_intro.html#antecedentes",
-    "href": "temas/c01_intro/c01_intro.html#antecedentes",
-    "title": "Tema 01: Introducción Teledetección",
-    "section": "Antecedentes",
-    "text": "Antecedentes\nLa Teledetección es la observación remota de la superficie terrestre (remote sensing). Antes de 1960, el término remote sensing solo significaba “cualquier medio de observación de un objeto sin tocarlo”. Sin embargo, con los programas espaciales y el desarrollo de los computadores, se considera como una disciplina relacionada a la observación de la Tierra.\nSegún Chuvieco-Salinero (2008), las primeras experiencias de la teledeteción datan de 1859, cuando Gaspar Félix de Tournachon obtuvo las primeras fotográfias aéreas desde un globo aerostático. El uso principal era el conocimiento de la organización y los patrones de ocupación urbana.\nCon la Primera Guerra Mundial, el uso del aeroplano fue determinante para recabar información del terreno, con fines estratégicos y militares. Destaca el aporte en 1915 de J.T.C Moore-Brabazon. Mientras que en la Segunda Guerra Mundial, llevó a un desarrollo más avanzado en las técnicas de teledetección. Kodak Research Laboratories introdujo la película infrarroja y se implementó la tecnología del sensor de radar, así como grandes avances en los sistemas de comunicación.\nFue cuestión de tiempo que estos avances se implementaran en la vida cotidiana y en el estudio de los recursos naturales. El período de postguerra llevo a un acelerado desarrollo del radar y de los sensores térmicos de barrido. A finales de los años cincuenta inicia la carrera espacial y con la guerra fría, el campo disciplinario tuvo un gran impulso y auge. En 1957 se lanzó el primer satélite artificial Sputnik, y despúes de este siguieron una serie de misiones y logros, que no solo se limitaron estudiar el planeta Tierra, sino también a la Luna y los otros astros del Sistema Solar.\n\n\n\nEvolución de los sistemas de teledetección. Tomado de Chuvieco-Salinero (2008)."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#las-imágenes-digitales",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#las-imágenes-digitales",
+    "title": "La imagen digital",
+    "section": "Las imágenes digitales",
+    "text": "Las imágenes digitales\nSon una representación bidimensional de una imagen a partir de una matriz numérica, frecuentemente en binario (unos y ceros). Dependiendo de si la resolución de la imagen es estática o dinámica, puede tratarse de una imagen matricial (o mapa de bits) o de un gráfico vectorial."
   },
   {
-    "objectID": "temas/c01_intro/c01_intro.html#cronología",
-    "href": "temas/c01_intro/c01_intro.html#cronología",
-    "title": "Tema 01: Introducción Teledetección",
-    "section": "Cronología",
-    "text": "Cronología\nAdaptado de Jones y Vaughan (2010) ."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#el-pixel",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#el-pixel",
+    "title": "La imagen digital",
+    "section": "El Pixel",
+    "text": "El Pixel\nEs la unidad más pequeña de una imagen.\n\n\n\nUna imagen digital se compone de una matriz bidimensional de elementos de imagen individuales, llamados píxeles, dispuestos en columnas en filas.\nCada píxel representa un área en la superficie de la Tierra.\nUn píxel tiene un valor de intensidad y una dirección de ubicación en la imagen 2D.\nLa resolución espacial se define por el tamaño de un píxel.\n\n\n\n\n\nEl Pixel"
   },
   {
-    "objectID": "temas/c01_intro/c01_intro.html#aspectos-legales",
-    "href": "temas/c01_intro/c01_intro.html#aspectos-legales",
-    "title": "Tema 01: Introducción Teledetección",
-    "section": "Aspectos Legales",
-    "text": "Aspectos Legales\n\nPor la ubicación y puesta en órbita de los satélites, estos no obedecen fronteras nacionales.\n\n\nSatélites Militares\n\nOpen Skies proposal. (1955). No aprobado por la URSS.\nEtapa de aceptación legal tácita. (1956-1991).\nOpen Skies Treaty (1992). Firmado por E.E.U.U., Canada y Estados de la OTAN, así como por los países firmantes del tratado de Varsovia (Rusia, Ucracia y Belarusia).\n\n\n\nSatélites Civiles\nSon regulados por el Comité de Naciones Unidades para el Uso Pacífico del Espacio Exterior. Se basa en el tratado sobre las actividades de exploración del espacio, firmado en 1967.\n\n“… el espacio exterior, incluso la Luna y otros cuerpos celestes, no podrán ser objeto de apropiación internacional por reivindicación de soberanía, uso u ocupación, ni mediante ningún otro medio.”\n\n\nUNISPACE’82. Se expresa la necesidad de controlar la distribución de imágenes.\nResolución 41/65 de la ONU (diciembre 1986) establece el interés para promover la protección del ambiente y mitigación de desastres naturales."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#estructura-de-una-imagen-digital",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#estructura-de-una-imagen-digital",
+    "title": "La imagen digital",
+    "section": "Estructura de una imagen digital",
+    "text": "Estructura de una imagen digital\n\nEstructura de una imagen digital"
   },
   {
-    "objectID": "temas/c01_intro/c01_intro.html#principios-de-la-resolución-4165-de-la-onu",
-    "href": "temas/c01_intro/c01_intro.html#principios-de-la-resolución-4165-de-la-onu",
-    "title": "Tema 01: Introducción Teledetección",
-    "section": "Principios de la Resolución 41/65 de la ONU",
-    "text": "Principios de la Resolución 41/65 de la ONU\n\nLa teledetección se realizará en provecho e interés de todos los países, de acuerdo con el derecho internacional;\nse respetará el principio de soberanía plena y permanente de los Estados sobre su propia riqueza y recursos naturales, sin perjudicar los legítimos derechos e intereses del Estado observado;\nse promoverá la cooperación internacional sobre recepción, interpretación y archivo de datos, prestándose asistencia técnica;\ndeberán los Estados informar al Secretario General de las Naciones Unidas de los programas de teledetección que se propongan desarrollar, así como a los Estados interesados que lo soliciten;\nse informará a los Estados afectados para prevenir fenómenos perjudiciales para su medio ambiente, y contarán con acceso sin discriminaciones, y a un coste razonable, de los datos de su territorio."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#la-información-de-las-imágenes",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#la-información-de-las-imágenes",
+    "title": "La imagen digital",
+    "section": "La información de las imágenes",
+    "text": "La información de las imágenes\nPara un correcta uso e interpretación de las imágenes es necesario conocer sus principales características. Es necesario por lo menos conocer la siguiente información (Chuvieco-Salinero 2008):"
   },
   {
-    "objectID": "temas/c01_intro/c01_intro.html#las-ventajas-de-las-observación-espacial",
-    "href": "temas/c01_intro/c01_intro.html#las-ventajas-de-las-observación-espacial",
-    "title": "Tema 01: Introducción Teledetección",
-    "section": "Las ventajas de las observación espacial",
-    "text": "Las ventajas de las observación espacial\nLa observación satelital presenta ciertas ventajas con respecto a otros medios de observación convencional, pero que bien pueden utilizarse como un complemento. Se destacan las siguientes ventajas:\n\nCobertura global: permiten obtener información de la totalidad del planeta, bajo condiciones comparables (mismo sensor, altitud orbital). Fundamental para entender procesos y fenómenos de pequeña escala y con impacto planetario.\nPerspectiva panorámica: permite detectar grandes espacios, y proporciona una visión amplia de hechos y fenómenos geográficos.\nObservación multiescala y no destructiva: ofrecen un amplio rango de cobertura espacial y nivel de detalle, desde los sensores de ámbito local (resoluciones de 30 cm y coberturas de cientos de kilómetros), hasta los de ámbito global. Las variables físicas que se obtienen de las imágenes son equiparables (reflectividad, radianza, temperatura, etc.) y es posible relacionar múltiples escalas y variables. Además, la observación satelital no altera las propiedades de la cobertura, por lo que es consistente en el tiempo de observación.\n\n\n\n\nTemperatura diaria global (2016-02-24)\n\n\n\nInformación sobre regiones no visibles del espectro: los sensores ópticos-electrónicos facilitan imágenes de diversos tipos de energía que no son visibles por el ojo humano o la fotografía convencional, como el infrarrojo cercano, infrarrojo medio, térmico o microndas. Estas bandas del espectro electromagnético proporcional información valiosa para el estudio y monitoreo ambiental. En la Figura 1, se pueden observar las diferencias entre una composición RGB convencional, con respecto a una composición en el infrarrojo de onda corta.\n\n\n\n\n\n\n\n\n(a) Quebec OLI\n\n\n\n\n\n\n\n(b) Quebec SWIR\n\n\n\n\nFigura 1: Detección de vegetación según la composición de bandas en el espectro no visibles por el ojo humano. Fuente: Earth Observatory, NASA.\n\n\n\nCobertura repetitiva: es posible obtener imágenes repetitivas de toda la Tierra, en condiciones comparables de observación, ideal para estudios multitemporales como el cambio en las coberturas de la superficie terrestre o el aumento de la temperatura.\n\n\n\n\n\n\n\nFigura 2: Anomalías térmicas (1884-2019) - Las temperaturas del aire en la Tierra han estado aumentando desde la Revolución Industrial. Si bien la variabilidad natural juega algún papel, la preponderancia de la evidencia indica que las actividades humanas, particularmente las emisiones de gases de efecto invernadero que atrapan el calor, son las principales responsables de hacer que nuestro planeta sea más cálido. -\n\n\n\nTransmisión inmediata: Los sistemas de teledetección graban las imágenes en formato digital, lo que permite transmitirlas a las estaciones terrestres en tiempo real. Esto permite una disponibilidad inmediata, que es fundamental para el monitoreo, gestión y evaluación medio ambiental, así como la atención de emergencias por fenómenos naturales o antrópicos.\nFormato digital: su disponibilidad en formato digital permite no solo su adquisición en tiempo real, sino también su tratamiento y procesamiento mediante modelos cuantitativos. Entre las limitaciones más importantes es que solo permite estimar aquellas variaciones que modifican el modo en que la cobertura refleja o emite energía, o la posición de los objetos. Por tanto, si el fenómeno de estudio no produzca una alteración sobre las características espectrales, esta no podrá ser detectada mediante los sistemas de teledetección."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#datos-de-la-imágen",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#datos-de-la-imágen",
+    "title": "La imagen digital",
+    "section": "Datos de la imágen",
+    "text": "Datos de la imágen\n\nFecha de adquisición: Es fundamental para realizar las preguntas adecuadas (ciclo fenológico, crecimiento, cambios, etc.)\nCoordenadas del centro de la imagen.\nCoordenadas del punto nadir (punto de intersección entre la superficie terrestre y una perpendicular desde el centro de adquisición.)\nSensores y bandas.\nÁngulos solares: Indican las condiciones iluminación y sectores de sombra (relación relieve-iluminación).\nÁngulo acimutal, medido desde el norte geográfico y en sentido de las manecillas del reloj.\nDatos del procesado. Incluye esquema de datos del sensor.\nAgencia y proyecto.\nCódigo de identificación de la escena. (LC08_L1TP_016053_20201227_20201227_01_RT)\nMarcas fiduciarias (caso de imágenes análogas)."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#principios-físicos",
-    "href": "temas/c02_basefisica/c02_basefisica.html#principios-físicos",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Principios físicos",
-    "text": "Principios físicos\nTodo sistema de teledetección se compone de un sensor, un objeto observado y un flujo energético que los relaciona y permite detectar el objeto (Chuvieco-Salinero 2008). El flujo energético para adquirir información puede darse de tres formas:\n\npor reflexión,\npor emisión y\npor emisión-reflexión."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#los-metadatos",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#los-metadatos",
+    "title": "La imagen digital",
+    "section": "Los metadatos",
+    "text": "Los metadatos\nLa mayoría de la información de una imagen se indica en los metadatos. Por lo general son un archivo de texto en formatos .txt, .dat, .inf, .xml, etc.\nLos metadatos están organizados mediante un esquema específico a cada formato de imagen."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#el-proceso-de-la-teledetección",
-    "href": "temas/c02_basefisica/c02_basefisica.html#el-proceso-de-la-teledetección",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "El Proceso de la Teledetección",
-    "text": "El Proceso de la Teledetección\nLa energía se transfiere de un lugar a otro por tres procesos: convección, conducción y radiación.\n\n\n\nAspectos involucrados: 1) Fuente de energía, 2) medio de propagación, 3) interacción con el objeto, 4) Registro de energía por el sensor, 5) transmisión de datos, 6) procesamiento y 7) aplicación de resultados."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#estándar-de-los-metadatos-en-costa-rica",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#estándar-de-los-metadatos-en-costa-rica",
+    "title": "La imagen digital",
+    "section": "Estándar de los metadatos en Costa Rica",
+    "text": "Estándar de los metadatos en Costa Rica\nPara Costa Rica están los lineamientos para la producción, publicación y estandarización de la información geoespacial, mediante:\n\nel Catálogo de objetos geográficos para datos fundamentales y\nla Norma técnica sobre el Perfil oficial de metadatos geográficos.\n\nLos cuales se basan en las normas ISO 19110, 19115 y 19126."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#propiedades-de-la-radiación-electro-magnética",
-    "href": "temas/c02_basefisica/c02_basefisica.html#propiedades-de-la-radiación-electro-magnética",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Propiedades de la radiación electro-magnética",
-    "text": "Propiedades de la radiación electro-magnética\nLa radiación electro-magnética, se explica por dos teorías aparentemente contrapuestas:\n\n\nSe concibe como un haz ondulatorio. Principio de Huygens (1678), ecuaciones de Maxwell (1865) y otros.\n\n\n\n\nComo sucesión de unidades discretas de energía, fotones o cuantos con masa igual a cero. Ley Planck (1900) y Efecto fotoeléctrico de Einstein (1905).\n\n\n\nLas dos teorías son posibles, pues se ha demostrado que la luz se comporta de acuerdo a ambos planteamientos (dualidad onda-partícula)."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#formatos-de-imágenes-digitales",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#formatos-de-imágenes-digitales",
+    "title": "La imagen digital",
+    "section": "Formatos de imágenes digitales",
+    "text": "Formatos de imágenes digitales\nA continuación se muestran los principales formatos de imágenes digitales:\n\n\n?(caption)"
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#la-onda-electromagnética",
-    "href": "temas/c02_basefisica/c02_basefisica.html#la-onda-electromagnética",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "La Onda Electromagnética",
-    "text": "La Onda Electromagnética\n\n\nSegún la teoría ondulatoria\n\n\n\nUna onda electromagnética polarizada linealmente que va en el eje z, con E denotando el campo eléctrico y B perpendicular denotando el campo magnético.\n\n\n\n\n\n\nLey de Planck para cuerpos a diferentes temperaturas"
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#la-escritura-de-la-imagen",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#la-escritura-de-la-imagen",
+    "title": "La imagen digital",
+    "section": "La escritura de la imagen",
+    "text": "La escritura de la imagen\nSe necesita información adicional para interpretar los datos de la imagen, como el número de filas, columnas y bandas, si hay un mapa en color, y la latitud y la longitud para relacionar la imagen con las ubicaciones geoespaciales.\n\n\n\n\n\n\nNota\n\n\nEsta información se puede proporcionar en un encabezado de archivo (típico en las cintas heredadas que se usaron originalmente para almacenar datos de imágenes satelitales) o en un archivo complementario."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#el-espectro-electromagnético",
-    "href": "temas/c02_basefisica/c02_basefisica.html#el-espectro-electromagnético",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "El espectro electromagnético",
-    "text": "El espectro electromagnético\n\n\n\nEspectro electromagnético, por Victor Blacus."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#formatos-de-encabezados",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#formatos-de-encabezados",
+    "title": "La imagen digital",
+    "section": "Formatos de encabezados",
+    "text": "Formatos de encabezados\nExisten diferentes tipos de formatos para almacenar las fotografías aéreas, las imágenes satelitales y los datos espectrales.\n\nBand Interleaved by Line (BIL): permite un acceso bastante fácil a la información espacial y espectral, lo que lo convierte en un formato ráster común compatible con muchos sistemas GIS.\nBands Interleaved by Pixels (BIP): óptimo para acceder a la información espectral de la imagen.\nBands SeQuential (BSQ): óptimo para acceder a la información espacial de la imagen o información para un color o banda espectral en particular."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#regiones-del-espectro-electromagnético",
-    "href": "temas/c02_basefisica/c02_basefisica.html#regiones-del-espectro-electromagnético",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Regiones del espectro electromagnético",
-    "text": "Regiones del espectro electromagnético\nSegún Bhatta (2013), es posible diferenciar las regiones del espectro utilizado en los procesos de teledetección de la siguiente manera:\n\nLa región visible u óptica: Se ubica entre (0.3 - 3.0 \\(\\mu m\\)). Por lo general usan al Sol como fuente de energía (con excepción del LiDAR).\nLa región termal: Entre (3.0 - 5.0 y 8.0-14.0 \\(\\mu m\\)). Los sensores remotos que utilizan la región termal y la microondas pasivas usan la energía emitida desde la superficie terrestre.\nMicroondas: Entre (1.0 \\(mm\\) - 1 \\(m\\)). Se compone de la región de microondas pasiva y activa. Los sensores remotos que usan la región activa de microondas envía energía artificial a la superficie terrestre y luego la energía dispersada es registrada por el sensor.\n\nOtras propiedades del espectro electromagnético\n\n\n\nDiagrama del espectro EM, que muestra el tipo, la longitud de onda (con ejemplos), la frecuencia, la temperatura de emisión del cuerpo negro. Adaptado de NASA."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#estructura-de-los-formatos",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#estructura-de-los-formatos",
+    "title": "La imagen digital",
+    "section": "Estructura de los formatos",
+    "text": "Estructura de los formatos\n\nTipos de escritura"
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-dimensionales",
-    "href": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-dimensionales",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Términos y unidades de medida: Dimensionales",
-    "text": "Términos y unidades de medida: Dimensionales\nPrincipales términos usados en teledetección (Chuvieco-Salinero 1996; Jones y Vaughan 2010; Weng 2011).\n\nEnergía radiante (\\(Q\\)): Indica el total de energía radiada en todas las direcciones. Unidad: julios \\([J]\\)\nDensidad radiante (\\(W\\)): Total de energía radiada en todas las direcciones por unidad de volumen. Unidad: julios por metro cúbico \\([J m^{-3}]\\).\nFlujo radiante (\\(\\Phi\\)): Total de energía radiante en todas las direcciones por unidad de tiempo: Unidad: Vatios (\\(W\\)).\nEmitancia radiante (\\(M\\)): Total de energía radiada en todas las direcciones desde una unidad de área y por unidad de tiempo. Unidad: Vatios por metro cuadrado \\([W m^{-2}]\\).\nIrradianza radiante (\\(E\\)): Total de energía radiada sobre una unidad de área y por unidad de tiempo. Es quivalente a la emitancia, si se indica la energía emitida, mientras la irradianza refiere a la incidente \\([W m^{-2}]\\).\nIntensidad radiante (\\(I\\)): Total de energía radiada por unidad de tiempo y por ángulo sólido (\\(\\Omega\\)). Se trata de un ángulo tridimensional, que refiere a la sección completa de la energía transmitida, y se mide en estéreo-radianes. Unidad: \\([W sr^{-1}]\\).\nRadianza (\\(L\\)): Total de energía radiada en una determinada dirección por unidad de área y por ángulo sólido de medida. Este es un término fundamental en Teledetección, ya que describe lo que mide el sensor. Unidad: Vatios por metro cuadrado y estéreo-radián \\([W m^{-2} sr^{-1}]\\).\nRadianza espectral (\\(L_{\\lambda}\\)): Indica el total de energía radiada en una determinada longitud de onda por unidad de área y por ángulo sólido de medida. Por cuanto el sensor detecta una banda particular del espectro, ésta es la medida más cercana a la observación remota. Al igual que la radianza, la emitancia e irradianza al incluir el sub-índice (\\(\\lambda\\)) se refiere a una determinada longitud de onda."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#tipos-de-codificación",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#tipos-de-codificación",
+    "title": "La imagen digital",
+    "section": "Tipos de Codificación",
+    "text": "Tipos de Codificación\nEstá relacionado a la resolución radiométrica.\n\n\n\n\n\n\n\n\n\nRecordatorio\n\n\nValores radiométricos de una imagen\n\n\n\n\n\n\n\n\nBits\nValores\nIntervalo\n\n\n\n\n2 Bits\n\\(2^2 =\\) 4\n(\\(0 \\backsim\\) 3)\n\n\n4 Bits\n\\(2^4 =\\) 16\n(\\(0 \\backsim\\) 15)\n\n\n8 Bits\n\\(2^8 =\\) 256\n(\\(0 \\backsim\\) 255)\n\n\n16 Bits\n\\(2^{16} =\\) 6.5536^{4}\n(\\(0 \\backsim\\) 6.5535^{4})\n\n\n32 Bits\n\\(2^{32} =\\) 4.2949673^{9}\n(\\(0 \\backsim\\) 4.2949673^{9})"
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-adimensionales",
-    "href": "temas/c02_basefisica/c02_basefisica.html#términos-y-unidades-de-medida-adimensionales",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Términos y unidades de medida: Adimensionales",
-    "text": "Términos y unidades de medida: Adimensionales\nSuelen expresarse en por cientos o por uno (cantidades relativas).\n\nEmisividad (\\(\\varepsilon\\)): Es la relación entre la emitancia de una superficie (\\(M\\)), y la que ofrecería un emisor perfecto, denominado cuerpo negro, a la misma temperatura (\\(M_n\\)).\nReflectividad (\\(\\rho\\)): Es la relación entre el flujo incidente y el reflejado por una superficie.\nAbsortividad (\\(\\alpha\\)): Es la relación entre el flujo incidente y el que absorbe una superficie.\nTransmisividad (\\(\\tau\\)): Es la relación entre el flujo incidente y el transmitido por una superficie.\n\nAl incluir el sub-índice (\\(\\lambda\\)) se refiere al mismo término pero a una determinada longitud de onda."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#tipos-de-codificación-1",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#tipos-de-codificación-1",
+    "title": "La imagen digital",
+    "section": "Tipos de codificación",
+    "text": "Tipos de codificación\nSe utiliza por lo general:\n\nASCII: Es un estándar de codificación de caracteres para la comunicación electrónica. Los códigos ASCII representan texto en computadoras, equipos de telecomunicaciones y otros dispositivos. La mayoría de los esquemas de codificación de caracteres modernos se basan en ASCII.\nBinario: Es un tipo de código, consiste en un sistema de unos y ceros, diseñado para representar un valor «verdadero» o «falso» en operaciones lógicas. Por ejemplo, dos bits tienen cuatro estados. Ambos pueden estar apagados, ambos pueden estar encendidos o uno puede estar apagado y el otro puede estar encendido."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#curva-de-emitancia-radiativa-del-sol",
-    "href": "temas/c02_basefisica/c02_basefisica.html#curva-de-emitancia-radiativa-del-sol",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Curva de emitancia radiativa del Sol",
-    "text": "Curva de emitancia radiativa del Sol\n\n\nEl Sol se encuentra a una temperatura radiante aproximada de 6.000 K. Según la ley de Wien su máxima emitancia espectral se produce a los 0.48 \\(\\mu m\\), que coincide con el color verde que aprecian nuestros ojos.\n\n\n\n\nIrradianza radiante del Sol."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#funciones-de-tratamiento-digital",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#funciones-de-tratamiento-digital",
+    "title": "La imagen digital",
+    "section": "Funciones de tratamiento digital",
+    "text": "Funciones de tratamiento digital\n\nOperaciones generales.\nCorrección radiométrica y geométrica.\nRealces del contrastre.\nFiltros.\nTransformaciones.\nClasificación.\nDetección de cambios.\nAnálisis de texturas."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#flujo-incidente-y-reflejado",
-    "href": "temas/c02_basefisica/c02_basefisica.html#flujo-incidente-y-reflejado",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Flujo incidente y reflejado",
-    "text": "Flujo incidente y reflejado\n\n\n\nRelación entre flujo incidente y reflejado"
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#utilidades-de-la-visualización",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#utilidades-de-la-visualización",
+    "title": "La imagen digital",
+    "section": "Utilidades de la visualización",
+    "text": "Utilidades de la visualización\n\nAmpliar / reducción de la imagen.\nObtener coordenadas y valores de ND.\nDigitalizar vectores sobre la imagen.\nDesplazarse en varias escalas.\nSuperposición de vectores y gráficos."
   },
   {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#factores-que-inciden-en-la-reflectividad-de-las-coberturas",
-    "href": "temas/c02_basefisica/c02_basefisica.html#factores-que-inciden-en-la-reflectividad-de-las-coberturas",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Factores que inciden en la reflectividad de las coberturas",
-    "text": "Factores que inciden en la reflectividad de las coberturas\n\nElementos que absorben energía (agua, pigmentos, minerales).\nRugosidad superficial (reflectividad lambertiana o especular).\nÁngulos de observación e iluminación."
-  },
-  {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#factores-que-modifican-la-reflectividad-de-las-coberturas",
-    "href": "temas/c02_basefisica/c02_basefisica.html#factores-que-modifican-la-reflectividad-de-las-coberturas",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Factores que modifican la reflectividad de las coberturas",
-    "text": "Factores que modifican la reflectividad de las coberturas\n\nAltura solar.\nOrientación.\nPendiente.\nAtmósfera.\nFenología\nTipo de sustrato."
-  },
-  {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#perfiles-espectrales-típicos-de-distintas-coberturas",
-    "href": "temas/c02_basefisica/c02_basefisica.html#perfiles-espectrales-típicos-de-distintas-coberturas",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Perfiles espectrales típicos de distintas coberturas",
-    "text": "Perfiles espectrales típicos de distintas coberturas\n\n\n\nA partir del laboratorio se han obtenido curvas de reflectividad espectral para las principales coberturas terrestres. Se observa que algunas presentan una respuesta uniforme en distintas longitudes de onda, mientras que otras un comportamiento mucho más característico.\n\n\n\n\n\nPerfiles típicos"
-  },
-  {
-    "objectID": "temas/c02_basefisica/c02_basefisica.html#diversas-aplicaciones",
-    "href": "temas/c02_basefisica/c02_basefisica.html#diversas-aplicaciones",
-    "title": "Tema 02: Principios físicos de la Teledetección",
-    "section": "Diversas aplicaciones",
-    "text": "Diversas aplicaciones\nLa Teledetección puede realizarse en diferentes regiones del espectro electromagnético. El uso de diferentes longitudes de onda ocurre principalmente por las diferentes aplicaciones que pueden plantearse."
-  },
-  {
-    "objectID": "temas/c03_sensores/c03_sensores.html#tipos-de-órbita",
-    "href": "temas/c03_sensores/c03_sensores.html#tipos-de-órbita",
-    "title": "Tema 03: Satélites y Sensores",
-    "section": "Tipos de órbita",
-    "text": "Tipos de órbita\n\n\n1. Polar: Es aquella en la que un satélite pasa por encima o casi por encima de ambos polos del cuerpo en órbita (generalmente un planeta como la Tierra, pero posiblemente otro cuerpo como la Luna o el Sol) en cada revolución. Tiene una inclinación de unos 60 a 90 grados con respecto al ecuador del cuerpo.\nLas órbitas polares se utilizan para el mapeo terrestre, satélites de reconocimiento, así como para algunos satélites meteorológicos. Los satélites de órbita casi polar eligen comúnmente una órbita heliosincrónica, donde cada paso orbital sucesivo ocurre a la misma hora local del día.\nFrecuencia: 1-3 Observaciones por día, por sensor.\n\n\n\n\nÓrbita Polar\n\n\n\n\n\n\n2. Geoestacionaria: También conocida como órbita ecuatorial geosíncrona (GEO), es una órbita geosíncrona circular de 35 786 km de altitud sobre el ecuador de la Tierra (42 164 km de radio desde el centro de la Tierra) y sigue la dirección de rotación de la Tierra. Un objeto en tal órbita tiene un período orbital igual al período de rotación de la Tierra, un día sidéreo, por lo que para los observadores terrestres parece inmóvil, en una posición fija en el cielo.\nLos satélites de comunicaciones a menudo se colocan en una órbita geoestacionaria para que las antenas satelitales basadas en la Tierra (ubicadas en la Tierra) no tengan que girar para rastrearlos, sino que puedan apuntar permanentemente a la posición en el cielo donde se encuentran los satélites. Los satélites meteorológicos también se colocan en esta órbita para el monitoreo y la recopilación de datos en tiempo real, y los satélites de navegación proporcionan un punto de calibración conocido y mejoran la precisión del GPS.\nFrecuencia: Entre cada 30 segundos a 15 minutos.\n\n\n\n\nComparación de las órbitas de GPS, GLONASS, Galileo y COMPASS (satélites de órbita terrestre media) con la Estación Espacial Internacional, el Telescopio Espacial Hubble, las órbitas geoestacionarias y de cementerio, y el tamaño nominal de la Tierra. Elaborado por Cmglee\n\n\n\n\n\n¿Son muchos lo objetos en órbita terrestre?\nEn la actualidad son tantos los objetos en órbita, que es necesario disponer de servicios de rastreo de objetos, satélites, cohetes y debris, para evitar colisiones.\n\n\n\nVisualizador de satélites en órbita terrestre. Fuente: LeoLabs Space.\n\n\n\n\nPasos ascendentes y descendentes\nLa mayoría de las plataformas de satélites de teledetección actuales se encuentran en órbitas casi polares, lo que significa que el satélite viaja hacia el norte en un lado de la Tierra y luego hacia el polo sur en la segunda mitad de su órbita. Estos se llaman pases ascendentes y descendentes, respectivamente. Si la órbita también es sincronizada con el sol, lo más probable es que el paso ascendente esté en el lado sombreado de la Tierra, mientras que el paso descendente esté en el lado iluminado por el sol.\nLos sensores que registran la energía solar reflejada solo captan la imagen de la superficie en un pase descendente, cuando hay iluminación solar disponible. Los sensores activos que proporcionan su propia iluminación o los sensores pasivos que registran la radiación emitida (por ejemplo, térmica) también pueden generar imágenes de la superficie en pasadas ascendentes."
-  },
-  {
-    "objectID": "temas/c03_sensores/c03_sensores.html#franja-de-cobertura-swath-width",
-    "href": "temas/c03_sensores/c03_sensores.html#franja-de-cobertura-swath-width",
-    "title": "Tema 03: Satélites y Sensores",
-    "section": "Franja de Cobertura (Swath Width)",
-    "text": "Franja de Cobertura (Swath Width)\nCuando un satélite gira alrededor de la Tierra, el sensor “ve” una determinada porción de la superficie terrestre. El área fotografiada en la superficie se denomina franja de cobertura. Las franjas de imágenes para sensores espaciales generalmente varían entre decenas y cientos de kilómetros de ancho.\n\n\n\nSe ilustra las dimensiones cubiertas por los instrumentos del radar de precipitación de frecuencia dual (DPR) y del generador de imágenes por microondas (GMI) del GPM Core Observatory Satellite. Fuente: NASA, GPM Mission.\n\n\nA medida que el satélite órbita la Tierra de polo a polo, su posición este-oeste no cambiaría si la Tierra no girara. Sin embargo, visto desde la Tierra, parece que el satélite se desplaza hacia el oeste porque la Tierra gira (de oeste a este) debajo de él. Este movimiento aparente permite que la franja del satélite cubra una nueva área con cada pasada consecutiva. La órbita del satélite y la rotación de la Tierra trabajan juntas para permitir una cobertura completa de la superficie de la Tierra, después de que haya completado un ciclo completo de órbitas.\n\n\n\nMapa de ruta de Landsat 8, para Centroamérica. Fuente: NASA.\n\n\n\nEvolución de toma de imágenes por (Path/Row)\n\n\n\nEl Archivo Landsat contiene cincuenta años de datos de satélites de observación de la Tierra. La animación muestra el número acumulativo de escenas Landsat. Los colores en los mapas muestran detalles sobre la cantidad de productos por Ruta/Fila. Fuente: NASA.\n\n\nRastreo de satelites"
-  },
-  {
-    "objectID": "temas/c03_sensores/c03_sensores.html#tipos-de-sensores-pasivos-y-activos",
-    "href": "temas/c03_sensores/c03_sensores.html#tipos-de-sensores-pasivos-y-activos",
-    "title": "Tema 03: Satélites y Sensores",
-    "section": "Tipos de Sensores: Pasivos y Activos",
-    "text": "Tipos de Sensores: Pasivos y Activos\nSensores Pasivos\nDetectan solo lo que se emite desde el paisaje o se refleja desde otra fuente (por ejemplo, la luz reflejada por el sol). Ejemplo: MODIS, MISR, OMI, VIIRS.\nSensores Activos\nLos instrumentos emiten su propia señal y el sensor mide lo que se refleja (por ejemplo, sonar y radar). Ejemplo: CALIPSO.\n\n\n\nTipos de Sensores."
-  },
-  {
-    "objectID": "temas/c03_sensores/c03_sensores.html#tipos-de-resolución",
-    "href": "temas/c03_sensores/c03_sensores.html#tipos-de-resolución",
-    "title": "Tema 03: Satélites y Sensores",
-    "section": "Tipos de Resolución:",
-    "text": "Tipos de Resolución:\n\nResolución espacial: Se refiere a la medición espacial mínima posible.\nResolución temporal: Frecuencia de la medición.\nResolución espectral: Número de canales independientes.\nResolución radiométrica: Nivel de sensividad de los detectores.\n\n\nCada tipo de resolución depende de la configuración orbital del satélite y el diseño de los sensores. Las resoluciones son diferentes para cada sensor.\n\n\nResolución espacial\nPixel: Es la unidad más pequeña de una imagen.\n\n\n\nUna imagen digital se compone de una matriz bidimensional de elementos de imagen individuales, llamados píxeles, dispuestos en columnas en filas.\nCada píxel representa un área en la superficie de la Tierra.\nUn píxel tiene un valor de intensidad y una dirección de ubicación en la imagen 2D.\nLa resolución espacial se define por el tamaño de un píxel.\n\n\n\n\n\nEl Pixel\n\n\n\n\n¿Importa la resolución espacial?\n\n\n\nDiferencia entre resoluciones espaciales\n\n\n\n\nResolución espectral\n\nLa resolución espectral describe la capacidad de un sensor para definir intervalos finos de longitud de onda.\nCuanto más fina sea la resolución espectral, más estrecho será el rango de longitud de onda para un canal o banda en particular.\n\n\n\n\nResolución radiométrica\n\nLos datos de imágenes están representados por números digitales positivos que varían de 0 a (uno menos que) una potencia seleccionada de 2.\nEl número máximo de niveles de brillo disponibles depende del número de bits (representa la resolución radiométrica) utilizados para representar la energía registrada.\n\nCuanto mayor sea este número, mayor será la resolución radiométrica.\n\nImportancia de la resolución radiométrica\n\nDetecta la diferencia en los niveles de brillo.\nCuanto más sensible sea el sensor, mayor será la resolución radiométrica.\nSi la precisión radiométrica es alta, la imagen será nítida. Se expresa en bits."
-  },
-  {
-    "objectID": "temas/c03_sensores/c03_sensores.html#valores-radiométricos-de-una-imagen",
-    "href": "temas/c03_sensores/c03_sensores.html#valores-radiométricos-de-una-imagen",
-    "title": "Tema 03: Satélites y Sensores",
-    "section": "Valores radiométricos de una imagen",
-    "text": "Valores radiométricos de una imagen\n\n\n\nBits\nValores\n\n\n\n\n1 Bits\n\\(2^1 =\\) 2\n\n\n4 Bits\n\\(2^4 =\\) 16\n\n\n8 Bits\n\\(2^8 =\\) 256\n\n\n16 Bits\n\\(2^{16} =\\) 65536\n\n\n32 Bits\n\\(2^{32} =\\) 4294967296\n\n\n\n\nEjemplo de resolución radiométrica\n\n\n\n\n\n\n\nResolución temporal\nCon qué frecuencia un satélite puede proporcionar observación de la misma área en la tierra.\n\nDepende principalmente del ancho de la franja del satélite - cuanto mayor sea la franja -, mayor será la resolución temporal."
+    "objectID": "press/press04_imagedigit/press04_imagedigit.html#referencias",
+    "href": "press/press04_imagedigit/press04_imagedigit.html#referencias",
+    "title": "La imagen digital",
+    "section": "Referencias",
+    "text": "Referencias\n\n\n\nEscuela de Ciencias Geográficas, UNA.\n\n\n\nChuvieco-Salinero, Emilio. 2008. Teledeteccion Ambiental. 3rd ed. Ariel Ciencia. Ariel."
   }
 ]
