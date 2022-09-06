@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="52mm"
+   viewBox="0 0 100 52"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="resol_espectral.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.0737236"
+     inkscape:cx="215.55428"
+     inkscape:cy="84.871486"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:3.34763px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.209227"
+       x="24.206087"
+       y="16.227749"
+       id="text5524"><tspan
+         sodipodi:role="line"
+         id="tspan5522"
+         style="text-align:center;text-anchor:middle;stroke-width:0.209227"
+         x="24.206087"
+         y="16.227749">Película Blanco &amp; Negro</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.209227"
+         x="24.206087"
+         y="20.412287"
+         id="tspan9372">(Baja resolución espectral)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.41922px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;stroke-width:0.213702"
+       x="24.206089"
+       y="34.720032"
+       id="text5524-3"><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.213702"
+         x="24.206089"
+         y="34.720032"
+         id="tspan9372-4">Película de Color</tspan><tspan
+         sodipodi:role="line"
+         style="text-align:center;text-anchor:middle;stroke-width:0.213702"
+         x="24.206089"
+         y="38.994057"
+         id="tspan84639">(Alta resolución espectral)</tspan></text>
+    <g
+       id="g87547"
+       transform="matrix(1.1094147,0,0,1.1094147,-5.3447212,-0.7713962)">
+      <g
+         id="g79361"
+         transform="translate(13.758336)">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:0.527507;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect53"
+           width="35.255566"
+           height="11.431649"
+           x="39.9291"
+           y="10.321883" />
+        <text
+           xml:space="preserve"
+           style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+           x="41.100338"
+           y="16.727386"
+           id="text34375"><tspan
+             sodipodi:role="line"
+             id="tspan34373"
+             style="font-weight:bold;stroke-width:0.18171"
+             x="41.100338"
+             y="16.727386"><tspan
+   style="font-weight:bold;fill:#0000ff;stroke-width:0.18171"
+   id="tspan39375">Azul</tspan> + <tspan
+   style="font-weight:bold;fill:#808000;stroke-width:0.18171"
+   id="tspan41375">Verde</tspan> + <tspan
+   style="font-weight:bold;fill:#ff0000;stroke-width:0.18171"
+   id="tspan46991">Rojo</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+           x="34.895454"
+           y="9.2065983"
+           id="text34375-0"><tspan
+             sodipodi:role="line"
+             id="tspan51511"
+             x="34.895454"
+             y="9.2065983">0.4 μm</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+           x="69.946045"
+           y="9.2065983"
+           id="text34375-0-1"><tspan
+             sodipodi:role="line"
+             id="tspan51511-9"
+             x="69.946045"
+             y="9.2065983">0.7 μm</tspan></text>
+      </g>
+      <g
+         id="g83375"
+         transform="translate(13.758336,-3.7041668)">
+        <g
+           id="g64992"
+           transform="matrix(0.96268127,0,0,1,1.5128791,4.9788407)">
+          <rect
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.310933;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect53-7-0"
+             width="12.229449"
+             height="11.450053"
+             x="39.905441"
+             y="26.299692" />
+          <rect
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.310933;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect53-7-0-4"
+             width="12.229449"
+             height="11.450053"
+             x="52.134892"
+             y="26.29969" />
+          <rect
+             style="fill:#ffffff;stroke:#000000;stroke-width:0.310933;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+             id="rect53-7-0-4-1"
+             width="12.229449"
+             height="11.450053"
+             x="64.364342"
+             y="26.29969" />
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+           x="65.294006"
+           y="38.187649"
+           id="text34375-9"><tspan
+             sodipodi:role="line"
+             id="tspan34373-6"
+             style="font-weight:bold;stroke-width:0.18171"
+             x="65.294006"
+             y="38.187649"><tspan
+               style="font-weight:bold;fill:#ff0000;stroke-width:0.18171"
+               id="tspan46991-6">Rojo</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+           x="52.617939"
+           y="38.187649"
+           id="text34375-9-58"><tspan
+             sodipodi:role="line"
+             id="tspan34373-6-3"
+             style="font-weight:bold;stroke-width:0.18171"
+             x="52.617939"
+             y="38.187649"><tspan
+               style="font-weight:bold;fill:#808000;stroke-width:0.18171"
+               id="tspan41375-6-0">Verde</tspan></tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+           x="42.200481"
+           y="38.187649"
+           id="text34375-9-5"><tspan
+             sodipodi:role="line"
+             id="tspan34373-6-8"
+             style="font-weight:bold;stroke-width:0.18171"
+             x="42.200481"
+             y="38.187649"><tspan
+               style="font-weight:bold;fill:#0000ff;stroke-width:0.18171"
+               id="tspan39375-7-2">Azul</tspan></tspan></text>
+        <g
+           id="g79301">
+          <text
+             xml:space="preserve"
+             style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+             x="49.276699"
+             y="29.74835"
+             id="text34375-0-1-0-8"><tspan
+               sodipodi:role="line"
+               id="tspan51511-9-3-2"
+               x="49.276699"
+               y="29.74835">0.5</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+             x="72.752991"
+             y="29.74835"
+             id="text34375-0-1-4"><tspan
+               sodipodi:role="line"
+               id="tspan51511-9-1"
+               x="72.752991"
+               y="29.74835">0.7</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+             x="61.014847"
+             y="29.74835"
+             id="text34375-0-1-4-5"><tspan
+               sodipodi:role="line"
+               id="tspan51511-9-1-5"
+               x="61.014847"
+               y="29.74835">0.6</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-size:2.90737px;line-height:1.25;font-family:sans-serif;stroke-width:0.18171"
+             x="37.538559"
+             y="29.74835"
+             id="text34375-0-1-0"><tspan
+               sodipodi:role="line"
+               id="tspan51511-9-3"
+               x="37.538559"
+               y="29.74835">0.4</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
